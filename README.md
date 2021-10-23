@@ -1,2 +1,0 @@
-# BCI-Game
-BCI Game
