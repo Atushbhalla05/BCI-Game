@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class BackgroundScroller : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] float scrollSpeed;
+    Material mat;
+    Vector2 offset;
+
     void Start()
     {
-        
+        mat = GetComponent<Renderer>().material;
+        offset = new Vector2(scrollSpeed, 0);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        mat.mainTextureOffset += (offset * Time.deltaTime);
     }
 }
