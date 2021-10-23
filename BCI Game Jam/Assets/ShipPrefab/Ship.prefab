@@ -263,7 +263,7 @@ SpriteRenderer:
   m_Size: {x: 0.5625, y: 0.375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &7578201685919317500
@@ -397,8 +397,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.101357244, y: -0.06728693}
-  m_Size: {x: 1.3792057, y: 0.485807}
+  m_Offset: {x: -0.094847344, y: -0.099836946}
+  m_Size: {x: 1.4703467, y: 0.5509077}
   m_Direction: 1
 --- !u!60 &7578201686410237884
 PolygonCollider2D:

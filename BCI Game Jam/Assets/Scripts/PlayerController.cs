@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
 
     public Rigidbody2D player;
-
+    public float Health;
     public float upDownSpeed;
     void Start()
     {
