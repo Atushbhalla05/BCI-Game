@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Starting compiling UnityEngine.TestRunner.dll
 /Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-1a2afa8f96a0f4038b4e495ff96dd436
 # Starting compiling UnityEngine.UI.dll
@@ -24,3 +25,7 @@
 /Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-64d6d48574f5c4d4085edacc90673e2d
 # Starting compiling Unity.TextMeshPro.Editor.dll
 /Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5653b6e938b264e7e84fcdc75d0f991c
+=======
+# Starting compiling Assembly-CSharp.dll
+/Applications/Unity/Hub/Editor/2020.3.21f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f1ea1c35ffb7e44aeb43b58d48209836
+>>>>>>> Stashed changes
