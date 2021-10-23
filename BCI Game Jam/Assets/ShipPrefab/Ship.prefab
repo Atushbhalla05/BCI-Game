@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2626810712503085986}
   - component: {fileID: 3229856933937166064}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WingBot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 7578201685218396033}
   - component: {fileID: 7578201685218396035}
   - component: {fileID: 7578201685218396032}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7578201685451760591}
   - component: {fileID: 7578201685451760590}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WingTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -276,7 +276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7578201685919317503}
   - component: {fileID: 7578201685919317502}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Blaster2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +359,9 @@ GameObject:
   - component: {fileID: 7578201686410237886}
   - component: {fileID: 7578201686410237887}
   - component: {fileID: 7578201686410237884}
-  m_Layer: 0
+  - component: {fileID: 8943406849707144761}
+  - component: {fileID: 1948208475771686349}
+  m_Layer: 7
   m_Name: Ship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -429,3 +431,39 @@ PolygonCollider2D:
       - {x: -0.4914326, y: 0.48448598}
       - {x: -0.37222904, y: 0.17913619}
       - {x: 0.04863842, y: 0.17804003}
+--- !u!114 &8943406849707144761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7578201686410237885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3711ba27189642bda3d35b3fa472382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1948208475771686349}
+  Health: 7
+  upDownSpeed: 5
+--- !u!50 &1948208475771686349
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7578201686410237885}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
