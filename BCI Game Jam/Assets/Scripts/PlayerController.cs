@@ -7,12 +7,15 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
 
     public Rigidbody2D player;
-    public float Health;
-    public float currentHealth;
+    public int maxHealth;
+    public int currentHealth;
     public float upDownSpeed;
+
+    public HealthBar healthBar;
     void Start()
     {
-        
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
