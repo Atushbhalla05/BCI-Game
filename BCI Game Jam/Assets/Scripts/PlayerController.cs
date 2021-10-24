@@ -27,4 +27,14 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate(){
         player.velocity = new Vector2(player.velocity.x, Input.GetAxis("Vertical") * upDownSpeed );
     }
+
+    void OnCollisionEnter2D(Collision2D collision){
+        Destroy(collision.gameObject);
+        TakeDamage();
+    }
+
+    public void TakeDamage(){
+        currentHealth -= 1;
+        healthBar.SetHealth(currentHealth);
+    }
 }

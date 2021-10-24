@@ -827,7 +827,7 @@ GameObject:
   - component: {fileID: 8221373515604625017}
   - component: {fileID: 1959912389453873353}
   - component: {fileID: 1959912389453873352}
-  - component: {fileID: 1959912389453873351}
+  - component: {fileID: 282197784786649449}
   m_Layer: 7
   m_Name: Ship
   m_TagString: Untagged
@@ -939,7 +939,7 @@ MonoBehaviour:
   currentHealth: 100
   upDownSpeed: 7
   healthBar: {fileID: 0}
---- !u!114 &1959912389453873351
+--- !u!114 &282197784786649449
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -948,7 +948,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8221373515604625016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 127c2001589ef8e4e89dcbe6d369dd3a, type: 3}
+  m_Script: {fileID: 11500000, guid: 8dca56687148546378cd51db340af62b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   laserState: 0
