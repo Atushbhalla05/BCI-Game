@@ -15,11 +15,11 @@ C:/Users/marie/Documents/GitHub/BCI-Game/BCI Game Jam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54276
+57750
 Successfully changed project path to: C:/Users/marie/Documents/GitHub/BCI-Game/BCI Game Jam
 C:/Users/marie/Documents/GitHub/BCI-Game/BCI Game Jam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 149.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005461 seconds.
+Registered in 0.001271 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 142.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.184 seconds
+- Completed reload, in  0.690 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3185ms)
-		BeginReloadAssembly (170ms)
+	ReloadAssembly (690ms)
+		BeginReloadAssembly (31ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1367ms)
-			LoadAssemblies (164ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (293ms)
+			LoadAssemblies (30ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (467ms)
+			SetupTypeCache (98ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (518ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (116ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (143ms)
-				BeforeProcessingInitializeOnLoad (24ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (84ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (57ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010678 seconds.
+Registered in 0.002545 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.314 seconds
+- Completed reload, in  0.606 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3318ms)
-		BeginReloadAssembly (453ms)
+	ReloadAssembly (607ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (2675ms)
-			LoadAssemblies (255ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (480ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (914ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (122ms)
-			SetupLoadedEditorAssemblies (1033ms)
+			SetupTypeCache (168ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (178ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (192ms)
-				ProcessInitializeOnLoadAttributes (772ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (34ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.6 MB.
-System memory in use after: 70.7 MB.
+Unloading 1505 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.9 MB.
+System memory in use after: 71.0 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1935.
-Total: 3.637200 ms (FindLiveObjects: 0.145500 ms CreateObjectMapping: 0.031900 ms MarkObjects: 3.357400 ms  DeleteObjects: 0.101300 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1938.
+Total: 2.479000 ms (FindLiveObjects: 0.126600 ms CreateObjectMapping: 0.024600 ms MarkObjects: 2.221100 ms  DeleteObjects: 0.105400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,53 +135,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/End Screen.unity
-  artifactKey: Guid(276cdefc3fb0b4cd1b570fe3fd43e2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/End Screen.unity using Guid(276cdefc3fb0b4cd1b570fe3fd43e2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec7604b71d131fdd51dac13b2a1b149') in 0.034404 seconds 
-  Import took 0.041251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000545 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(99edf30dd19b045dc8c47a685bc93855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(99edf30dd19b045dc8c47a685bc93855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbe69a23de899a901763082ccf10fe1') in 0.031659 seconds 
-  Import took 0.040100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/Scenes/Title Screen.unity
-  artifactKey: Guid(30b3c2b1717fd4e97878fc2b28665049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Title Screen.unity using Guid(30b3c2b1717fd4e97878fc2b28665049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55154737a819fd9a3764f59c79d473f2') in 0.026940 seconds 
-  Import took 0.035750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.343866 seconds.
-  path: Assets/Sprites/PlanetsFull
-  artifactKey: Guid(7e1980ba7119d41a0be297fbf14876e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull using Guid(7e1980ba7119d41a0be297fbf14876e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b1bbe7643b203a06cf3b04d8595d28') in 0.024234 seconds 
-  Import took 0.031786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.318074 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.016584 seconds 
-  Import took 0.023814 seconds .
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(232b9af3f6940422dabbc192abd850bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(232b9af3f6940422dabbc192abd850bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98f235fb28010a9741d08ea976b60ca') in 0.009816 seconds 
+  Import took 0.011843 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 8.31 ms, found 2 plugins.
+Registering precompiled user dll's ...
+Registered in 0.002284 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 40.0 MB.
-System memory in use after: 40.1 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.594 seconds
+Domain Reload Profiling:
+	ReloadAssembly (594ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (483ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (171ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.7 MB.
+System memory in use after: 69.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1935.
-Total: 11.324400 ms (FindLiveObjects: 0.360400 ms CreateObjectMapping: 0.153700 ms MarkObjects: 10.781000 ms  DeleteObjects: 0.026600 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1940.
+Total: 2.403600 ms (FindLiveObjects: 0.100100 ms CreateObjectMapping: 0.024500 ms MarkObjects: 2.238600 ms  DeleteObjects: 0.039500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -196,1802 +200,116 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.179907 seconds.
-  path: Assets/Planet Prefab
-  artifactKey: Guid(20e1bb51740ee814d9f1f6bd92de0981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Planet Prefab using Guid(20e1bb51740ee814d9f1f6bd92de0981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16285942706ccb1fbbff16e851f4483') in 0.016921 seconds 
-  Import took 0.023665 seconds .
+  Time since last request: 531.630510 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(d3711ba27189642bda3d35b3fa472382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(d3711ba27189642bda3d35b3fa472382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551ec0387a170a0cf62140bda805e8b2') in 0.061308 seconds 
+  Import took 0.070236 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.542660 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(b92cb3ea88f554b4aac09c6934eadfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(b92cb3ea88f554b4aac09c6934eadfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f780635240e31bbdb075b0d3d3e7c1') in 0.014923 seconds 
-  Import took 0.021999 seconds .
+  Time since last request: 1.158596 seconds.
+  path: Assets/Scripts/BackgroundScroller.cs
+  artifactKey: Guid(96ee0a79ad6c348ae947daf3d38af605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BackgroundScroller.cs using Guid(96ee0a79ad6c348ae947daf3d38af605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55df688f4840dbb60a5cf12635ea5155') in 0.025887 seconds 
+  Import took 0.034201 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.952483 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns
-  artifactKey: Guid(632cedd782b534e3e901541b1e979618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns using Guid(632cedd782b534e3e901541b1e979618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259a6d8a5d31837d3fef09ab902b874f') in 0.013157 seconds 
-  Import took 0.020253 seconds .
+  Time since last request: 47.821332 seconds.
+  path: Assets/Scripts/StartNewGame.cs
+  artifactKey: Guid(130fcb360479346c4ab67b29f04135a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartNewGame.cs using Guid(130fcb360479346c4ab67b29f04135a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e58a6b4b34fc3e19530750d13cb690b') in 0.023583 seconds 
+  Import took 0.032078 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003735 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/1.png
-  artifactKey: Guid(29336e31a511d428786a2c1769471982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/1.png using Guid(29336e31a511d428786a2c1769471982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e092f98b4daad6ae18c8e653087d20') in 0.130471 seconds 
-  Import took 0.137575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000577 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/13.png
-  artifactKey: Guid(c2c692f726ac5400c86a6f7fb22969d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/13.png using Guid(c2c692f726ac5400c86a6f7fb22969d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7087f7beffea04b5fe482b475da1b7') in 0.030044 seconds 
-  Import took 0.036788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/4.png
-  artifactKey: Guid(1b82cd608fd7c4090813ee507c7bed8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/4.png using Guid(1b82cd608fd7c4090813ee507c7bed8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55035aad6bc0465e798ceb4e54b81d41') in 0.027867 seconds 
-  Import took 0.034516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000462 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/20.png
-  artifactKey: Guid(117a56777a52b48d0b1421aa09a13f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/20.png using Guid(117a56777a52b48d0b1421aa09a13f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193e08b34c343769360a07e942b6cc90') in 0.043537 seconds 
-  Import took 0.049439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/5.png
-  artifactKey: Guid(7db8e43d813f7441bb86c0936b8c870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/5.png using Guid(7db8e43d813f7441bb86c0936b8c870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549fd15e8033279225b3d8c62cf5b785') in 0.032505 seconds 
-  Import took 0.038820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/2.png
-  artifactKey: Guid(44bcfa69b223a4519906345fb5fe469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/2.png using Guid(44bcfa69b223a4519906345fb5fe469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b10c93c2929d3ec2ef586198b38c3dd') in 0.027336 seconds 
-  Import took 0.034036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/21.png
-  artifactKey: Guid(c1f5bae7790134cb0a138e39558ea53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/21.png using Guid(c1f5bae7790134cb0a138e39558ea53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebab9bfb3c84472d00d2e9722ea5a06') in 0.031435 seconds 
-  Import took 0.038601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/22.png
-  artifactKey: Guid(49fedb5561680479e8861e4884426e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/22.png using Guid(49fedb5561680479e8861e4884426e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e9d086b5d743c8fd5beec620539dfc') in 0.021810 seconds 
-  Import took 0.029916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/25.png
-  artifactKey: Guid(fa04c022c972f4e09a95221655735489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/25.png using Guid(fa04c022c972f4e09a95221655735489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fb8794bbb625dcf390a64129ef9c94') in 0.027367 seconds 
-  Import took 0.034595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/14.png
-  artifactKey: Guid(4cba872f1ccc2462bae7c7163edc31d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/14.png using Guid(4cba872f1ccc2462bae7c7163edc31d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215a2b9ce1551710c7a8af07e8ac282a') in 0.029636 seconds 
-  Import took 0.036371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/19.png
-  artifactKey: Guid(edc91350bd8d44bca906bdc4da9f37d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/19.png using Guid(edc91350bd8d44bca906bdc4da9f37d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdd80116335e1646ecfca350f60df08') in 0.029188 seconds 
-  Import took 0.037015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/12.png
-  artifactKey: Guid(145e5a99395f94e38b6808ebec27c505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/12.png using Guid(145e5a99395f94e38b6808ebec27c505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9045c7571a2a413657aede4ac83dd6c') in 0.034532 seconds 
-  Import took 0.041594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000497 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/9.png
-  artifactKey: Guid(0742c3a528a644546a407f608d665e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/9.png using Guid(0742c3a528a644546a407f608d665e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf969d9105d99b7afa9ddfbaf7d7d357') in 0.028217 seconds 
-  Import took 0.034856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000548 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/27.png
-  artifactKey: Guid(03d86401f4f414ffab5e694fb3de78f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/27.png using Guid(03d86401f4f414ffab5e694fb3de78f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fdd0ec6993c24605b9e70a75d70c79') in 0.028099 seconds 
-  Import took 0.034784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000563 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/16.png
-  artifactKey: Guid(68892874c53e74a90824d19de49115a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/16.png using Guid(68892874c53e74a90824d19de49115a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3333042a84f3e367b870a39b2cb77b1') in 0.027693 seconds 
-  Import took 0.033496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/15.png
-  artifactKey: Guid(92ad8d853058c4577974f45c17ef1e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/15.png using Guid(92ad8d853058c4577974f45c17ef1e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd6519f3443f99c9602f7230b0354af') in 0.023860 seconds 
-  Import took 0.030483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/11.png
-  artifactKey: Guid(a8242a59fa79a4e62a82bd92adfb6827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/11.png using Guid(a8242a59fa79a4e62a82bd92adfb6827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae66a8e41d3bbec5cef4bc724470039f') in 0.021456 seconds 
-  Import took 0.028494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/23.png
-  artifactKey: Guid(88413114d54d149939c285fc7e4d84c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/23.png using Guid(88413114d54d149939c285fc7e4d84c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9ab4f53195e13ee6e60c31cc334478') in 0.023866 seconds 
-  Import took 0.030735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/6.png
-  artifactKey: Guid(177019f25f6ad4d4d860fb6b40ec1800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/6.png using Guid(177019f25f6ad4d4d860fb6b40ec1800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e84b69413cf86aca7705f6ed156bec') in 0.030846 seconds 
-  Import took 0.037453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/3.png
-  artifactKey: Guid(8ead75c36de7f45fd9abeb085deef67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/3.png using Guid(8ead75c36de7f45fd9abeb085deef67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5d78196d83ce3f5798c6c76c24d0cf') in 0.022606 seconds 
-  Import took 0.029963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/24.png
-  artifactKey: Guid(60e84a35f66d748caa16fabd1c652a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/24.png using Guid(60e84a35f66d748caa16fabd1c652a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4a3d57a611cfc69265379455463a03') in 0.026689 seconds 
-  Import took 0.034831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/26.png
-  artifactKey: Guid(e4e5ae02bda604a058b76183e6f80cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/26.png using Guid(e4e5ae02bda604a058b76183e6f80cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b570de14287ed63e6b48612d673f14e') in 0.024576 seconds 
-  Import took 0.030799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/10.png
-  artifactKey: Guid(96264e78dc5dd4c3db2ce63cb5cd5835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/10.png using Guid(96264e78dc5dd4c3db2ce63cb5cd5835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d5d0162c97916b07954dd7fd3e0db8') in 0.033590 seconds 
-  Import took 0.039585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/28.png
-  artifactKey: Guid(8d0cd6214c01a4ab99e458dbbdbab5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/28.png using Guid(8d0cd6214c01a4ab99e458dbbdbab5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461289ee4fc9f5dd533344201e310ce6') in 0.025163 seconds 
-  Import took 0.032891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/7.png
-  artifactKey: Guid(fa469f857c1ea4f88a71bf6cc50e7968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/7.png using Guid(fa469f857c1ea4f88a71bf6cc50e7968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caec5657936ff66191267b22dfb309f') in 0.028032 seconds 
-  Import took 0.034319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/8.png
-  artifactKey: Guid(67872b7ee3949485aa8456632c75f6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/8.png using Guid(67872b7ee3949485aa8456632c75f6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40718d1b7f0a46320b8aed21aa2ab709') in 0.015463 seconds 
-  Import took 0.021546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/18.png
-  artifactKey: Guid(98a71a3ab2dd14f13b43a5a45a0c439e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/18.png using Guid(98a71a3ab2dd14f13b43a5a45a0c439e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153ce79f9255beaaffa5dc45563c444d') in 0.022349 seconds 
-  Import took 0.030384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Sprites/PlanetsFull/Suns/17.png
-  artifactKey: Guid(4aef09e70b3f14316b98f96511ffd669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Suns/17.png using Guid(4aef09e70b3f14316b98f96511ffd669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50f5039f30b4d9fb5d82d87fc68fef2') in 0.025145 seconds 
-  Import took 0.031907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.375868 seconds.
-  path: Assets/Sprites/PlanetsFull/Tundra
-  artifactKey: Guid(fbad7871198ec4fefa89fa7be24ad653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Tundra using Guid(fbad7871198ec4fefa89fa7be24ad653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932cbeb95a40bbe8ed08a8128871fc0c') in 0.019550 seconds 
-  Import took 0.025386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Sprites/PlanetsFull/Tundra/4.png
-  artifactKey: Guid(0e51c5c463a504e9a9231e3a4e35367b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Tundra/4.png using Guid(0e51c5c463a504e9a9231e3a4e35367b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91079b1ed6dd556dd5d5facdd228574') in 0.031058 seconds 
-  Import took 0.038904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/Sprites/PlanetsFull/Tundra/1.png
-  artifactKey: Guid(9c2408200742d4a1a8f27e1339a2877e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Tundra/1.png using Guid(9c2408200742d4a1a8f27e1339a2877e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec7aaf2f1a81c1132d9e1738371cd96') in 0.027601 seconds 
-  Import took 0.036617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Sprites/PlanetsFull/Tundra/8.png
-  artifactKey: Guid(a9b637d4d300c4686a59c85bbd2d0df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Tundra/8.png using Guid(a9b637d4d300c4686a59c85bbd2d0df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25725d825c75d651ed24eb888da9f36') in 0.025207 seconds 
-  Import took 0.032863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Sprites/PlanetsFull/Tundra/3.png
-  artifactKey: Guid(fea7ab12d6e0a41308b2eba916caf510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Tundra/3.png using Guid(fea7ab12d6e0a41308b2eba916caf510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dfa6d0415122a9ba81a192c45e0c43') in 0.027153 seconds 
-  Import took 0.036725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/Sprites/PlanetsFull/Tundra/5.png
-  artifactKey: Guid(39b54f1290e634f4e81c2237205966f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Tundra/5.png using Guid(39b54f1290e634f4e81c2237205966f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01ac4f13aca54145113cf3c48d6ab7f') in 0.024128 seconds 
-  Import took 0.033757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/Sprites/PlanetsFull/Tundra/7.png
-  artifactKey: Guid(7185f611d5b5f48f6996fd3f284970e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Tundra/7.png using Guid(7185f611d5b5f48f6996fd3f284970e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe5447879472096674c8530fcca359d') in 0.028658 seconds 
-  Import took 0.036595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000511 seconds.
-  path: Assets/Sprites/PlanetsFull/Tundra/6.png
-  artifactKey: Guid(84cadc21802a24f0ba1cadb8a237bd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Tundra/6.png using Guid(84cadc21802a24f0ba1cadb8a237bd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d0801f75a8c458396d70a6484b1ea3') in 0.021440 seconds 
-  Import took 0.029738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Sprites/PlanetsFull/Tundra/2.png
-  artifactKey: Guid(57146966ee1c4427b95ae61e215263c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Tundra/2.png using Guid(57146966ee1c4427b95ae61e215263c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518c75d08c9a2c9b263a1c068c83ba3e') in 0.026159 seconds 
-  Import took 0.035312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.258171 seconds.
-  path: Assets/Sprites/PlanetsFull/Galaxies
-  artifactKey: Guid(e5bcc42beaf174cb49ffe3534da6f2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Galaxies using Guid(e5bcc42beaf174cb49ffe3534da6f2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6a5aac631c5c155d7b5306bbf257b1') in 0.015391 seconds 
-  Import took 0.022071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Sprites/PlanetsFull/Galaxies/3.png
-  artifactKey: Guid(801e8137dc767492fb0c83ba10360925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Galaxies/3.png using Guid(801e8137dc767492fb0c83ba10360925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d0c2f077e3dd3856923390f84bedc0') in 0.022870 seconds 
-  Import took 0.030357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000515 seconds.
-  path: Assets/Sprites/PlanetsFull/Galaxies/1.png
-  artifactKey: Guid(08f21bbb462af4b838ecf0e42682bcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Galaxies/1.png using Guid(08f21bbb462af4b838ecf0e42682bcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9004362ff416a79d332a2703536d949d') in 0.023919 seconds 
-  Import took 0.030332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000550 seconds.
-  path: Assets/Sprites/PlanetsFull/Galaxies/4.png
-  artifactKey: Guid(401045bd0356b438292bf05601ff4f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Galaxies/4.png using Guid(401045bd0356b438292bf05601ff4f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8e640e94f3a8a9b31f69fa5b20b8fd') in 0.021494 seconds 
-  Import took 0.028816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Sprites/PlanetsFull/Galaxies/2.png
-  artifactKey: Guid(457b3740f18534f1eb76fa0fc68e044c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Galaxies/2.png using Guid(457b3740f18534f1eb76fa0fc68e044c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f8f61fbc2b0d1035aa609bbdf81dec') in 0.019503 seconds 
-  Import took 0.025946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.136388 seconds.
-  path: Assets/Sprites/PlanetsFull/Ice_or_Snow
-  artifactKey: Guid(720a8332bdfb64cf195d4135736bfd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Ice_or_Snow using Guid(720a8332bdfb64cf195d4135736bfd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bda12df5e94debbd5bd58312782cf1a') in 0.017462 seconds 
-  Import took 0.024621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002479 seconds.
-  path: Assets/Sprites/PlanetsFull/Ice_or_Snow/1.png
-  artifactKey: Guid(323262f25fd5d4f2caab04b024a7ac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Ice_or_Snow/1.png using Guid(323262f25fd5d4f2caab04b024a7ac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e127b220b8ef616d1df5fc57c266ce88') in 0.025375 seconds 
-  Import took 0.033521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000497 seconds.
-  path: Assets/Sprites/PlanetsFull/Ice_or_Snow/2.png
-  artifactKey: Guid(e516dae7adb654e3d82c8aa4e7d01396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Ice_or_Snow/2.png using Guid(e516dae7adb654e3d82c8aa4e7d01396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bf28a67ed043e13da1e54fb4a35c2c') in 0.017136 seconds 
-  Import took 0.024663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000468 seconds.
-  path: Assets/Sprites/PlanetsFull/Ice_or_Snow/3.png
-  artifactKey: Guid(47ddbe05a158441b48009f8d710a9f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Ice_or_Snow/3.png using Guid(47ddbe05a158441b48009f8d710a9f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fc30345a34b50c569997fc6726e7c6') in 0.025553 seconds 
-  Import took 0.032305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/Sprites/PlanetsFull/Ice_or_Snow/4.png
-  artifactKey: Guid(fba0c2e40d36943a08593c393f5127c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Ice_or_Snow/4.png using Guid(fba0c2e40d36943a08593c393f5127c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e92ae431cbf99095dbbedbed8813d7') in 0.029512 seconds 
-  Import took 0.036179 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.189072 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava
-  artifactKey: Guid(2a56fa51c6e544b7e8f943459c1f494c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava using Guid(2a56fa51c6e544b7e8f943459c1f494c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f7ab768782bfc17df01171d63c807b') in 0.017730 seconds 
-  Import took 0.024406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000791 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/9.png
-  artifactKey: Guid(b7a6d13dc80024e078485c068a121596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/9.png using Guid(b7a6d13dc80024e078485c068a121596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1888871aeb1a724dfd62dd5324aabbd7') in 0.033969 seconds 
-  Import took 0.042422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000513 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/1.png
-  artifactKey: Guid(2e2e0a60c48cb44779e72c44ed446200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/1.png using Guid(2e2e0a60c48cb44779e72c44ed446200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27d9e089f7e6f37b76d48fb77c0068a') in 0.031847 seconds 
-  Import took 0.040516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000528 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/8.png
-  artifactKey: Guid(ed6e1c41517e24cc3bc905ca4d449817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/8.png using Guid(ed6e1c41517e24cc3bc905ca4d449817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37272224ef11b136bb67e95dc0d713ea') in 0.026261 seconds 
-  Import took 0.033616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000549 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/6.png
-  artifactKey: Guid(4c0076b0aac84418092c4ea65ba35dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/6.png using Guid(4c0076b0aac84418092c4ea65ba35dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331028c5730168d35d744cd0bb1d0e5f') in 0.029925 seconds 
-  Import took 0.037620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000564 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/12.png
-  artifactKey: Guid(06f11553f47904e31ac1769c146af5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/12.png using Guid(06f11553f47904e31ac1769c146af5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2810123c0afb5a13a28e5355db2bafdc') in 0.030907 seconds 
-  Import took 0.038065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000524 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/7.png
-  artifactKey: Guid(89226fab8711e4d9eb83d73e698b74b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/7.png using Guid(89226fab8711e4d9eb83d73e698b74b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7c63a46ffe5b32d23e2e49c00dcd63') in 0.023485 seconds 
-  Import took 0.032431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/5.png
-  artifactKey: Guid(3ee530f82954349b580bb3037234a781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/5.png using Guid(3ee530f82954349b580bb3037234a781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50095c176d9ade3a85f28a24055a49b5') in 0.027593 seconds 
-  Import took 0.034842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000542 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/2.png
-  artifactKey: Guid(85e563bde14984adcab1d798dcb6ed34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/2.png using Guid(85e563bde14984adcab1d798dcb6ed34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338f6105b91aed6313afe30b3b88d2e8') in 0.026090 seconds 
-  Import took 0.032387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000519 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/3.png
-  artifactKey: Guid(298e1b30776794f37a66ffe99e44f02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/3.png using Guid(298e1b30776794f37a66ffe99e44f02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd212dc3edcf94b663a381cd1e633c79e') in 0.017883 seconds 
-  Import took 0.023224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/11.png
-  artifactKey: Guid(deb4b49fc2ddd4309ada28edb5241275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/11.png using Guid(deb4b49fc2ddd4309ada28edb5241275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636421b592bc5c549f95ebfc58fedcf3') in 0.037486 seconds 
-  Import took 0.044481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/10.png
-  artifactKey: Guid(11e1295d73a49475c98bc2d67c0a4454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/10.png using Guid(11e1295d73a49475c98bc2d67c0a4454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a146c0e9af0a278b33db2df62dc4bfb') in 0.024910 seconds 
-  Import took 0.032413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/4.png
-  artifactKey: Guid(5f511558776eb46d698c4ba12739a542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/4.png using Guid(5f511558776eb46d698c4ba12739a542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1781a8cf177762712a5e6581d4b81960') in 0.018805 seconds 
-  Import took 0.025476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.622131 seconds.
-  path: Assets/Sprites/PlanetsFull/Nebulae
-  artifactKey: Guid(a497afcfb21b44affa5263a88017b9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Nebulae using Guid(a497afcfb21b44affa5263a88017b9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af2af9891698a506fe0fbb658580aaa') in 0.017697 seconds 
-  Import took 0.025067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002271 seconds.
-  path: Assets/Sprites/PlanetsFull/Nebulae/1.png
-  artifactKey: Guid(69d2ad7cb9dae435f9bde4b8c6ed0a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Nebulae/1.png using Guid(69d2ad7cb9dae435f9bde4b8c6ed0a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb1a744f9571bae066eba9c4533af15') in 0.027413 seconds 
-  Import took 0.034114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000501 seconds.
-  path: Assets/Sprites/PlanetsFull/Nebulae/6.png
-  artifactKey: Guid(5f17266417e924ebca2a11b7d7a0867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Nebulae/6.png using Guid(5f17266417e924ebca2a11b7d7a0867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3741696db1acb54e03aed604cc8c6464') in 0.028728 seconds 
-  Import took 0.036006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/Sprites/PlanetsFull/Nebulae/8.png
-  artifactKey: Guid(8bebf47152708452499b0955910cd170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Nebulae/8.png using Guid(8bebf47152708452499b0955910cd170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d660a8d200097bea567a12719b5363f') in 0.029880 seconds 
-  Import took 0.038824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Sprites/PlanetsFull/Nebulae/7.png
-  artifactKey: Guid(a3992301faf914e9ab467271b76e7743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Nebulae/7.png using Guid(a3992301faf914e9ab467271b76e7743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fb1341e4cea7ff1941d91bdbce4254') in 0.030946 seconds 
-  Import took 0.039670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Sprites/PlanetsFull/Nebulae/5.png
-  artifactKey: Guid(82a5c90282d044b969cd8921b0d464e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Nebulae/5.png using Guid(82a5c90282d044b969cd8921b0d464e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681abed46b6faaf0c1b80d1654489ead') in 0.012788 seconds 
-  Import took 0.019695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Sprites/PlanetsFull/Nebulae/2.png
-  artifactKey: Guid(e91c4fed377b04c44bb6686109456572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Nebulae/2.png using Guid(e91c4fed377b04c44bb6686109456572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23e80d2445c6b555b60d24af4e4b53a') in 0.020834 seconds 
-  Import took 0.026475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Sprites/PlanetsFull/Nebulae/4.png
-  artifactKey: Guid(01f74d44af0b849cd9da5b89e6b852bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Nebulae/4.png using Guid(01f74d44af0b849cd9da5b89e6b852bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d420fb3fd56db29435b45462e73d54d') in 0.018814 seconds 
-  Import took 0.024282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Sprites/PlanetsFull/Nebulae/3.png
-  artifactKey: Guid(dd6e3a2046804465183cbfc9df714a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Nebulae/3.png using Guid(dd6e3a2046804465183cbfc9df714a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e518f9236130221810b306835f70bf0') in 0.015546 seconds 
-  Import took 0.021023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.742220 seconds.
-  path: Assets/Sprites/PlanetsFull/Ocean
-  artifactKey: Guid(ec3c3651ee5aa42fe8345365c2bf0de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Ocean using Guid(ec3c3651ee5aa42fe8345365c2bf0de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a268bd24a52d17edb78ed489935c83') in 0.013578 seconds 
-  Import took 0.020015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Sprites/PlanetsFull/Ocean/5.png
-  artifactKey: Guid(5c1572ba529314e9d8f3b0633a0f4607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Ocean/5.png using Guid(5c1572ba529314e9d8f3b0633a0f4607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7b2ed74a866590c9511b6e6e25e94b') in 0.024347 seconds 
-  Import took 0.031588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/Sprites/PlanetsFull/Ocean/7.png
-  artifactKey: Guid(1f4c7bff3ce4b40289f09c5a03c96fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Ocean/7.png using Guid(1f4c7bff3ce4b40289f09c5a03c96fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1292697589f17224fbc8410ec30237') in 0.022950 seconds 
-  Import took 0.029191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Sprites/PlanetsFull/Ocean/4.png
-  artifactKey: Guid(9dc4b51a1fa904c70a8f3f90e9b17804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Ocean/4.png using Guid(9dc4b51a1fa904c70a8f3f90e9b17804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947434ef6330eca7a053466a56a4eee1') in 0.015251 seconds 
-  Import took 0.021198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/Sprites/PlanetsFull/Ocean/1.png
-  artifactKey: Guid(e1828bf8c60b8476fb2b404601653f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Ocean/1.png using Guid(e1828bf8c60b8476fb2b404601653f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358c63f8a310c83edff581d5975c7792') in 0.021770 seconds 
-  Import took 0.029087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Sprites/PlanetsFull/Ocean/2.png
-  artifactKey: Guid(23502744ba0e24f0b9aafeb243ffa32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Ocean/2.png using Guid(23502744ba0e24f0b9aafeb243ffa32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1563e6cfc6b9985c6baa490698c1a0a') in 0.029644 seconds 
-  Import took 0.036595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000459 seconds.
-  path: Assets/Sprites/PlanetsFull/Ocean/8.png
-  artifactKey: Guid(5954c401936364f18aa19cd2b2bc3eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Ocean/8.png using Guid(5954c401936364f18aa19cd2b2bc3eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d16a8d63e5568a2278dede75b340f2b') in 0.016231 seconds 
-  Import took 0.023347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/Sprites/PlanetsFull/Ocean/3.png
-  artifactKey: Guid(95666206919ad4d6ebfb6ee07c253b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Ocean/3.png using Guid(95666206919ad4d6ebfb6ee07c253b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34cb95d9e01fa0aebc4c64923fb01d3') in 0.021234 seconds 
-  Import took 0.027571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Sprites/PlanetsFull/Ocean/6.png
-  artifactKey: Guid(cebf74f758579404481ec48ecd21a9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Ocean/6.png using Guid(cebf74f758579404481ec48ecd21a9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a684ba1970e015b00dcc9a586847093') in 0.018440 seconds 
-  Import took 0.025061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 98.992140 seconds.
+  Time since last request: 3400.400495 seconds.
   path: Assets/Planet Prefab/Planet Prefab.prefab
   artifactKey: Guid(0699aef367ebf934bb7df7a40d09e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Planet Prefab/Planet Prefab.prefab using Guid(0699aef367ebf934bb7df7a40d09e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9f5f317a114ac75cf5bf4d6dc38cd1') in 0.020805 seconds 
-  Import took 0.027356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.156058 seconds.
-  path: Assets/Planet Prefab/Planet Prefab.prefab
-  artifactKey: Guid(0699aef367ebf934bb7df7a40d09e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Planet Prefab/Planet Prefab.prefab using Guid(0699aef367ebf934bb7df7a40d09e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd6a8156700f317ef17078e8e30be72') in 0.011425 seconds 
-  Import took 0.019555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.340540 seconds.
-  path: Assets/Planet Prefab/Planet Prefab.prefab
-  artifactKey: Guid(0699aef367ebf934bb7df7a40d09e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Planet Prefab/Planet Prefab.prefab using Guid(0699aef367ebf934bb7df7a40d09e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecddc7a26c9ef0cbb999433a0b4df42a') in 0.010044 seconds 
-  Import took 0.016952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.491498 seconds.
-  path: Assets/Sprites/SpaceBg/Backgrounds/Blue1.png
-  artifactKey: Guid(dc5263ab7cfa64d1bae16a45d6f233d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SpaceBg/Backgrounds/Blue1.png using Guid(dc5263ab7cfa64d1bae16a45d6f233d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992cefa71a8b6236326cb9f882bcc30c') in 0.148689 seconds 
-  Import took 0.155699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000539 seconds.
-  path: Assets/Sprites/SpaceBg/Backgrounds/Purple1.png
-  artifactKey: Guid(70f7f42bcd3144e5eb8c243de06c2dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SpaceBg/Backgrounds/Purple1.png using Guid(70f7f42bcd3144e5eb8c243de06c2dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877c34e1dabf94245a19981a05651c29') in 0.041299 seconds 
-  Import took 0.046679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Sprites/SpaceBg/Backgrounds/Blue3.png
-  artifactKey: Guid(d17fce889048043698e3ac9e5c02bbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SpaceBg/Backgrounds/Blue3.png using Guid(d17fce889048043698e3ac9e5c02bbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0317411277c4375d4306243f54c45f50') in 0.033949 seconds 
-  Import took 0.040251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/Sprites/SpaceBg/Backgrounds/Red1.png
-  artifactKey: Guid(d4a06fc72096140039b4f48b97e6156c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SpaceBg/Backgrounds/Red1.png using Guid(d4a06fc72096140039b4f48b97e6156c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1fde90f8bb7dd8a0343fc011a5a8bb') in 0.037318 seconds 
-  Import took 0.042765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Sprites/SpaceBg/Backgrounds/Purple3.png
-  artifactKey: Guid(6703e3799e2b74daf85b61a5ee3474a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SpaceBg/Backgrounds/Purple3.png using Guid(6703e3799e2b74daf85b61a5ee3474a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9437ca41879b1371da2988968d71bbbb') in 0.045557 seconds 
-  Import took 0.051665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Sprites/SpaceBg/Backgrounds/Purple2.png
-  artifactKey: Guid(d599c975e8efa444dbbfd8b9868e41cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SpaceBg/Backgrounds/Purple2.png using Guid(d599c975e8efa444dbbfd8b9868e41cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e39d71355454f97aa962762de449d2') in 0.042726 seconds 
-  Import took 0.046958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Sprites/SpaceBg/Backgrounds/Blue2.png
-  artifactKey: Guid(d0eb005a8ccf44809896df288fe8ff93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SpaceBg/Backgrounds/Blue2.png using Guid(d0eb005a8ccf44809896df288fe8ff93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf6e0c4e89e1221acf42d7d82a5eebc') in 0.042974 seconds 
-  Import took 0.050772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Sprites/SpaceBg/Backgrounds/BlueStars.png
-  artifactKey: Guid(7ad8f1d7886e442f2a6e991ab8ab8c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SpaceBg/Backgrounds/BlueStars.png using Guid(7ad8f1d7886e442f2a6e991ab8ab8c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63707764a3355b579135ce0490d5d521') in 0.052842 seconds 
-  Import took 0.059532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.653978 seconds.
-  path: Assets/Sprites/SpaceBg/Backgrounds/Red2.png
-  artifactKey: Guid(31ad0c3d0324e4827833a1bcd9499d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SpaceBg/Backgrounds/Red2.png using Guid(31ad0c3d0324e4827833a1bcd9499d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc0911ecd6bde0ee50a89bb31861a1c') in 0.040269 seconds 
-  Import took 0.048751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Sprites/SpaceBg/Backgrounds/Red3.png
-  artifactKey: Guid(2b18c84aa39094febb097d84b14f685d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SpaceBg/Backgrounds/Red3.png using Guid(2b18c84aa39094febb097d84b14f685d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146746d8410a155d012747cef5281d87') in 0.033759 seconds 
-  Import took 0.040786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Sprites/SpaceBg/Backgrounds/YellowStars.png
-  artifactKey: Guid(f69284ef0e9894e20aa408d910beb16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SpaceBg/Backgrounds/YellowStars.png using Guid(f69284ef0e9894e20aa408d910beb16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc587dcea45af790340f19e7bd39dd3') in 0.040388 seconds 
-  Import took 0.046790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.536827 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(232b9af3f6940422dabbc192abd850bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(232b9af3f6940422dabbc192abd850bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb06fa850e0f61ab7dfcd12669b8535') in 0.017704 seconds 
-  Import took 0.024911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.332980 seconds.
-  path: Assets/Scenes/Background test.unity
-  artifactKey: Guid(6c6446daa47cb48b4b1bbca434766135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Background test.unity using Guid(6c6446daa47cb48b4b1bbca434766135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5051bd16efb21f3ef4e25a8e52617c7') in 0.018961 seconds 
-  Import took 0.027251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 169.962535 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/1.png
-  artifactKey: Guid(2e2e0a60c48cb44779e72c44ed446200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/1.png using Guid(2e2e0a60c48cb44779e72c44ed446200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb65b05f32f999db61174995a3b128d') in 0.031664 seconds 
-  Import took 0.038660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/9.png
-  artifactKey: Guid(b7a6d13dc80024e078485c068a121596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/9.png using Guid(b7a6d13dc80024e078485c068a121596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5316dd0055da9b313b535fc787f9e673') in 0.024622 seconds 
-  Import took 0.031831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/8.png
-  artifactKey: Guid(ed6e1c41517e24cc3bc905ca4d449817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/8.png using Guid(ed6e1c41517e24cc3bc905ca4d449817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f00555e323ed20ccaeb63a1b003115e') in 0.040094 seconds 
-  Import took 0.047115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000544 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/6.png
-  artifactKey: Guid(4c0076b0aac84418092c4ea65ba35dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/6.png using Guid(4c0076b0aac84418092c4ea65ba35dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1157ff29ed51bd706fc4ef3ec07c9739') in 0.027114 seconds 
-  Import took 0.034256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/12.png
-  artifactKey: Guid(06f11553f47904e31ac1769c146af5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/12.png using Guid(06f11553f47904e31ac1769c146af5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47760aef41b817546f0f3ba54464e9fd') in 0.042050 seconds 
-  Import took 0.050370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/7.png
-  artifactKey: Guid(89226fab8711e4d9eb83d73e698b74b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/7.png using Guid(89226fab8711e4d9eb83d73e698b74b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0abba92ba1b6ae55acfc3b89d34505a') in 0.033703 seconds 
-  Import took 0.041472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/5.png
-  artifactKey: Guid(3ee530f82954349b580bb3037234a781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/5.png using Guid(3ee530f82954349b580bb3037234a781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc4fae27fd6de43ee13e6122865c867') in 0.032984 seconds 
-  Import took 0.039455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/2.png
-  artifactKey: Guid(85e563bde14984adcab1d798dcb6ed34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/2.png using Guid(85e563bde14984adcab1d798dcb6ed34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a682ebf9b36c61f11f6dbb595cf53af') in 0.031636 seconds 
-  Import took 0.038297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/3.png
-  artifactKey: Guid(298e1b30776794f37a66ffe99e44f02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/3.png using Guid(298e1b30776794f37a66ffe99e44f02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b35ff39b2adca7b691daa0e334931c3') in 0.032948 seconds 
-  Import took 0.039661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/11.png
-  artifactKey: Guid(deb4b49fc2ddd4309ada28edb5241275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/11.png using Guid(deb4b49fc2ddd4309ada28edb5241275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098b7120289c9266607a28088d16c769') in 0.030714 seconds 
-  Import took 0.037835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/Sprites/PlanetsFull/Lava/10.png
-  artifactKey: Guid(11e1295d73a49475c98bc2d67c0a4454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Lava/10.png using Guid(11e1295d73a49475c98bc2d67c0a4454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0430d3847d3dab06771b0ea052d50228') in 0.029917 seconds 
-  Import took 0.036650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.534425 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids
-  artifactKey: Guid(3641f3750bb584b8bbbddded71917e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids using Guid(3641f3750bb584b8bbbddded71917e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4614762191ce81f802bc8c5b523d9a8') in 0.014119 seconds 
-  Import took 0.020507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.966332 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/1.png
-  artifactKey: Guid(1defbd0b9469744fe8c5dea47f09e7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/1.png using Guid(1defbd0b9469744fe8c5dea47f09e7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73aa9c667fda348ba48fb73aaff9abb3') in 0.030412 seconds 
-  Import took 0.038232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/2.png
-  artifactKey: Guid(1fe615cd8689e49a7b80385d03e453f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/2.png using Guid(1fe615cd8689e49a7b80385d03e453f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45325d6730fde71aa3b29560ea72494') in 0.024775 seconds 
-  Import took 0.031599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/9.png
-  artifactKey: Guid(45914d08595b34432abc36549d13512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/9.png using Guid(45914d08595b34432abc36549d13512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72bdd1608c22668f46a6dd156abfc9e') in 0.025066 seconds 
-  Import took 0.032463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/6.png
-  artifactKey: Guid(e32399c136f92481d8f77b6e21f33723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/6.png using Guid(e32399c136f92481d8f77b6e21f33723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b195cdb926f85742ef61cf9bf97d3f') in 0.025675 seconds 
-  Import took 0.034082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/11.png
-  artifactKey: Guid(94f8e99e3c17046de98d31b1b4f176f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/11.png using Guid(94f8e99e3c17046de98d31b1b4f176f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2107d0eec2fd1160ef23e2c4d580d05d') in 0.020230 seconds 
-  Import took 0.027006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/13.png
-  artifactKey: Guid(1efd1352a33124abfa7b79dd93dda1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/13.png using Guid(1efd1352a33124abfa7b79dd93dda1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3cf03c90b2a1882b6884fee0a5a61b') in 0.025536 seconds 
-  Import took 0.033558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/15.png
-  artifactKey: Guid(8fd33c781075f468fbd1109f9318b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/15.png using Guid(8fd33c781075f468fbd1109f9318b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939cc65e3bf4e43c063fc1c5172325e1') in 0.024465 seconds 
-  Import took 0.031765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/7.png
-  artifactKey: Guid(9138a2b820da24e76b1dbf5b5728d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/7.png using Guid(9138a2b820da24e76b1dbf5b5728d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16e7bcdefd5766d03309746c78342ef') in 0.015348 seconds 
-  Import took 0.020952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/3.png
-  artifactKey: Guid(7568ec2ecad844be29b88ccd09dba856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/3.png using Guid(7568ec2ecad844be29b88ccd09dba856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f2cc0b75c810e68b518cef6a081cec') in 0.022374 seconds 
-  Import took 0.029507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/16.png
-  artifactKey: Guid(997cfc34de5794ae882f544f18d20c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/16.png using Guid(997cfc34de5794ae882f544f18d20c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2accde0006a0c072b415631902629778') in 0.022494 seconds 
-  Import took 0.029439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/10.png
-  artifactKey: Guid(b3ef04f3f9b72433683c934be145b034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/10.png using Guid(b3ef04f3f9b72433683c934be145b034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98463cbbccf2c7b213ba22b50b72ae38') in 0.026749 seconds 
-  Import took 0.034468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/12.png
-  artifactKey: Guid(f09b71ee0ae204296afbc1127b3850c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/12.png using Guid(f09b71ee0ae204296afbc1127b3850c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914902ce629051d3f9c602b9b582498e') in 0.026781 seconds 
-  Import took 0.036757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/14.png
-  artifactKey: Guid(c925e383322b344fabd665475aa740be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/14.png using Guid(c925e383322b344fabd665475aa740be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd175b64e740bcb363d5ce96b51c5a78') in 0.017179 seconds 
-  Import took 0.023978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/4.png
-  artifactKey: Guid(588a6be66ef4c4ea7af9675c81ea59f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/4.png using Guid(588a6be66ef4c4ea7af9675c81ea59f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fd67749889c7ef51ed53a53b5dde37') in 0.030237 seconds 
-  Import took 0.038463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000682 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/8.png
-  artifactKey: Guid(2568680636f2e40d7a04702e05e94ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/8.png using Guid(2568680636f2e40d7a04702e05e94ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38598fded244e9dfbd3d0506874662c') in 0.021456 seconds 
-  Import took 0.028542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/5.png
-  artifactKey: Guid(bbb68c1fdedee4d0e927b441b7d79d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/5.png using Guid(bbb68c1fdedee4d0e927b441b7d79d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e05686a60b73e352300bc90f66a5e6') in 0.031862 seconds 
-  Import took 0.039143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.577057 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/3.png
-  artifactKey: Guid(7568ec2ecad844be29b88ccd09dba856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/3.png using Guid(7568ec2ecad844be29b88ccd09dba856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac194b28dbd47d17328b2f2eb1dfb8e') in 0.040913 seconds 
-  Import took 0.048057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/2.png
-  artifactKey: Guid(1fe615cd8689e49a7b80385d03e453f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/2.png using Guid(1fe615cd8689e49a7b80385d03e453f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f8d0dcc9dac68d56171c50913d5596') in 0.034899 seconds 
-  Import took 0.041448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000466 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/9.png
-  artifactKey: Guid(45914d08595b34432abc36549d13512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/9.png using Guid(45914d08595b34432abc36549d13512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ccf13fc2bfe82e959c5e7614d0ef25') in 0.027010 seconds 
-  Import took 0.033810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/6.png
-  artifactKey: Guid(e32399c136f92481d8f77b6e21f33723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/6.png using Guid(e32399c136f92481d8f77b6e21f33723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488065ba010d7ebbe783dfa1f4044b53') in 0.022870 seconds 
-  Import took 0.030306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/11.png
-  artifactKey: Guid(94f8e99e3c17046de98d31b1b4f176f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/11.png using Guid(94f8e99e3c17046de98d31b1b4f176f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068c7bcc622ca05b81c94084c3b59cca') in 0.033457 seconds 
-  Import took 0.040538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/13.png
-  artifactKey: Guid(1efd1352a33124abfa7b79dd93dda1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/13.png using Guid(1efd1352a33124abfa7b79dd93dda1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d3956b15c6f952f241822fc55f1312') in 0.028360 seconds 
-  Import took 0.035471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/1.png
-  artifactKey: Guid(1defbd0b9469744fe8c5dea47f09e7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/1.png using Guid(1defbd0b9469744fe8c5dea47f09e7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6994f2e094aa1e84b456244b2127bd07') in 0.044296 seconds 
-  Import took 0.051139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/15.png
-  artifactKey: Guid(8fd33c781075f468fbd1109f9318b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/15.png using Guid(8fd33c781075f468fbd1109f9318b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56dbbe26ade90d73c0fcdf1bb140bde1') in 0.033959 seconds 
-  Import took 0.041136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/7.png
-  artifactKey: Guid(9138a2b820da24e76b1dbf5b5728d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/7.png using Guid(9138a2b820da24e76b1dbf5b5728d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b9fedea9eebdc8643d101fa97b0ade') in 0.029685 seconds 
-  Import took 0.035705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/16.png
-  artifactKey: Guid(997cfc34de5794ae882f544f18d20c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/16.png using Guid(997cfc34de5794ae882f544f18d20c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b6facf32402c9c588e1374adfe49ad') in 0.030024 seconds 
-  Import took 0.037814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/10.png
-  artifactKey: Guid(b3ef04f3f9b72433683c934be145b034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/10.png using Guid(b3ef04f3f9b72433683c934be145b034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1888269a5c5269c03faa126e96dac453') in 0.035521 seconds 
-  Import took 0.042868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/12.png
-  artifactKey: Guid(f09b71ee0ae204296afbc1127b3850c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/12.png using Guid(f09b71ee0ae204296afbc1127b3850c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c988bb4e3ade4c556221f9c0e071f64b') in 0.028438 seconds 
-  Import took 0.035417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/14.png
-  artifactKey: Guid(c925e383322b344fabd665475aa740be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/14.png using Guid(c925e383322b344fabd665475aa740be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22db4a183893aa6a9e702c1f003ee2eb') in 0.027175 seconds 
-  Import took 0.034076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/4.png
-  artifactKey: Guid(588a6be66ef4c4ea7af9675c81ea59f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/4.png using Guid(588a6be66ef4c4ea7af9675c81ea59f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2725a785a2c2301dee7194752fd6b061') in 0.030248 seconds 
-  Import took 0.037612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/8.png
-  artifactKey: Guid(2568680636f2e40d7a04702e05e94ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/8.png using Guid(2568680636f2e40d7a04702e05e94ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf6dcbe135ceb6c1cefda996e2d5f00') in 0.027349 seconds 
-  Import took 0.033858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000545 seconds.
-  path: Assets/Sprites/PlanetsFull/Asteroids/5.png
-  artifactKey: Guid(bbb68c1fdedee4d0e927b441b7d79d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Asteroids/5.png using Guid(bbb68c1fdedee4d0e927b441b7d79d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3421484bece1947661e7cc5f793c0555') in 0.029855 seconds 
-  Import took 0.037076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.757187 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon
-  artifactKey: Guid(acab4b74fb68348d290b62023fdaea10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon using Guid(acab4b74fb68348d290b62023fdaea10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5762d4dec8ad7b5a1145dc198d7a4073') in 0.020736 seconds 
-  Import took 0.027590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.166527 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/1.png
-  artifactKey: Guid(193c860b7e4a84f7b9eb0979aee7dc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/1.png using Guid(193c860b7e4a84f7b9eb0979aee7dc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d38b18518ebfe466bda2b8bb6fde42') in 0.032509 seconds 
-  Import took 0.039468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000508 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/3.png
-  artifactKey: Guid(b5ba0fecd53ea45b089d49ca6dd1a06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/3.png using Guid(b5ba0fecd53ea45b089d49ca6dd1a06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f6f668b818cc62244b5a451e833c38') in 0.028921 seconds 
-  Import took 0.036012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000497 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/15.png
-  artifactKey: Guid(740ede517ffe244cb8a7dc397a992ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/15.png using Guid(740ede517ffe244cb8a7dc397a992ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9c85e227b9cf88791c3f5b76306ea6') in 0.024963 seconds 
-  Import took 0.032432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/13.png
-  artifactKey: Guid(f5bdf7bb5a70c480d8b38fae9add978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/13.png using Guid(f5bdf7bb5a70c480d8b38fae9add978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cec480f42447cdfa0cdb29cb2a35262') in 0.020733 seconds 
-  Import took 0.026950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/7.png
-  artifactKey: Guid(2f93e80cde9824dae9728a974c160785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/7.png using Guid(2f93e80cde9824dae9728a974c160785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb9de929277528e091c75211bbb448d') in 0.017825 seconds 
-  Import took 0.024429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/5.png
-  artifactKey: Guid(3829011b2b45c4ff0b034af3a91cbf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/5.png using Guid(3829011b2b45c4ff0b034af3a91cbf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9665ccaf98c46f4ecc3aa01d551ebcec') in 0.022555 seconds 
-  Import took 0.029542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/8.png
-  artifactKey: Guid(d7f4973c534cf40cd8f67b2774a65192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/8.png using Guid(d7f4973c534cf40cd8f67b2774a65192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ec5217876675bc5ecf993783ef9d0a') in 0.026096 seconds 
-  Import took 0.032643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/10.png
-  artifactKey: Guid(34a4c9dd7fe1146788814dae0f848d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/10.png using Guid(34a4c9dd7fe1146788814dae0f848d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fad380684191ec88d99bfc63bf9edfe') in 0.024487 seconds 
-  Import took 0.031564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/4.png
-  artifactKey: Guid(2561636b55bf8477cbada17c5f9c68ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/4.png using Guid(2561636b55bf8477cbada17c5f9c68ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ad504871f34e5f0c1d5fcb9aee8993') in 0.022156 seconds 
-  Import took 0.029509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/14.png
-  artifactKey: Guid(cb4d5668f156045aea37cc249cf1bd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/14.png using Guid(cb4d5668f156045aea37cc249cf1bd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e4dff883c838e297ff4884d7acfd60') in 0.025458 seconds 
-  Import took 0.033104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/12.png
-  artifactKey: Guid(ac12fef4f0e5e47899cc8b5297f0c3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/12.png using Guid(ac12fef4f0e5e47899cc8b5297f0c3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26dcb6b35cff968ef75cfc389a219898') in 0.024115 seconds 
-  Import took 0.031198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/6.png
-  artifactKey: Guid(f2266c8b64d11493da66e6c57df13b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/6.png using Guid(f2266c8b64d11493da66e6c57df13b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98836d5050e78083bebc05b893fdf264') in 0.020165 seconds 
-  Import took 0.026131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/2.png
-  artifactKey: Guid(1b1d5bcac556e456782b6d9d78d2ac67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/2.png using Guid(1b1d5bcac556e456782b6d9d78d2ac67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25dc9f3c50e95d5e04a796b99c4d4808') in 0.019625 seconds 
-  Import took 0.025062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/16.png
-  artifactKey: Guid(205654a3358784d2e941cccc0cac16fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/16.png using Guid(205654a3358784d2e941cccc0cac16fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed789bf4df2f85bae19e423727a31c1') in 0.020602 seconds 
-  Import took 0.027231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/9.png
-  artifactKey: Guid(4e8c2d938bf344c38a3f3e3a2232bfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/9.png using Guid(4e8c2d938bf344c38a3f3e3a2232bfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7fa3de9ec146e3b4cda1c8777a81bb4') in 0.024048 seconds 
-  Import took 0.029771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000558 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/11.png
-  artifactKey: Guid(f73e21b3c142349c58bb9f21875a1140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/11.png using Guid(f73e21b3c142349c58bb9f21875a1140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff85e48f438eed3d1bf9e604ab6577a') in 0.020452 seconds 
-  Import took 0.027836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 92.671889 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/13.png
-  artifactKey: Guid(f5bdf7bb5a70c480d8b38fae9add978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/13.png using Guid(f5bdf7bb5a70c480d8b38fae9add978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e4faa7c0e8b7315bdc6ef0b90e8866') in 0.024982 seconds 
-  Import took 0.030548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003770 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/1.png
-  artifactKey: Guid(193c860b7e4a84f7b9eb0979aee7dc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/1.png using Guid(193c860b7e4a84f7b9eb0979aee7dc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fb1ca63507d492cbb6aeeb7f7fa534') in 0.034964 seconds 
-  Import took 0.043135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/3.png
-  artifactKey: Guid(b5ba0fecd53ea45b089d49ca6dd1a06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/3.png using Guid(b5ba0fecd53ea45b089d49ca6dd1a06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e483a4b6eacf26534e0aa178dd7a41') in 0.040220 seconds 
-  Import took 0.048046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/15.png
-  artifactKey: Guid(740ede517ffe244cb8a7dc397a992ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/15.png using Guid(740ede517ffe244cb8a7dc397a992ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edc0a4822151ae79ac19f9e4b43fbe4') in 0.032529 seconds 
-  Import took 0.039536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/7.png
-  artifactKey: Guid(2f93e80cde9824dae9728a974c160785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/7.png using Guid(2f93e80cde9824dae9728a974c160785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d521ef9adcce5e455a9e2672486f52') in 0.025469 seconds 
-  Import took 0.032160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000567 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/5.png
-  artifactKey: Guid(3829011b2b45c4ff0b034af3a91cbf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/5.png using Guid(3829011b2b45c4ff0b034af3a91cbf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6662369577a2fdaa2dc307f087b5187') in 0.027264 seconds 
-  Import took 0.034172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/8.png
-  artifactKey: Guid(d7f4973c534cf40cd8f67b2774a65192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/8.png using Guid(d7f4973c534cf40cd8f67b2774a65192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdb4d902d7bc16b2b7e4ab4cc796e3f') in 0.027492 seconds 
-  Import took 0.034775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/10.png
-  artifactKey: Guid(34a4c9dd7fe1146788814dae0f848d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/10.png using Guid(34a4c9dd7fe1146788814dae0f848d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291597a021005ff2f4aff0212afa4063') in 0.024119 seconds 
-  Import took 0.031354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/4.png
-  artifactKey: Guid(2561636b55bf8477cbada17c5f9c68ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/4.png using Guid(2561636b55bf8477cbada17c5f9c68ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d0f08745019e2a47b8ff799229adc3') in 0.026213 seconds 
-  Import took 0.034213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/14.png
-  artifactKey: Guid(cb4d5668f156045aea37cc249cf1bd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/14.png using Guid(cb4d5668f156045aea37cc249cf1bd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6cce36baf3607b152ff86db8ac8b2e') in 0.039571 seconds 
-  Import took 0.048011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000552 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/12.png
-  artifactKey: Guid(ac12fef4f0e5e47899cc8b5297f0c3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/12.png using Guid(ac12fef4f0e5e47899cc8b5297f0c3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dd96fd15835b969a9d2afffd916f28') in 0.033972 seconds 
-  Import took 0.040751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000600 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/6.png
-  artifactKey: Guid(f2266c8b64d11493da66e6c57df13b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/6.png using Guid(f2266c8b64d11493da66e6c57df13b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fc492f66dd9d52e0eaa4e52d03b9b3') in 0.030913 seconds 
-  Import took 0.041923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000595 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/2.png
-  artifactKey: Guid(1b1d5bcac556e456782b6d9d78d2ac67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/2.png using Guid(1b1d5bcac556e456782b6d9d78d2ac67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba8cfecbd1bdc3240d9e08e7ad54001') in 0.026049 seconds 
-  Import took 0.035121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/16.png
-  artifactKey: Guid(205654a3358784d2e941cccc0cac16fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/16.png using Guid(205654a3358784d2e941cccc0cac16fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22903176f42699026df3d0cdc6f53e7f') in 0.026803 seconds 
-  Import took 0.033973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/9.png
-  artifactKey: Guid(4e8c2d938bf344c38a3f3e3a2232bfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/9.png using Guid(4e8c2d938bf344c38a3f3e3a2232bfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c846a8961320557b8e20d68958b3e849') in 0.031728 seconds 
-  Import took 0.038597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/Sprites/PlanetsFull/Barren_or_Moon/11.png
-  artifactKey: Guid(f73e21b3c142349c58bb9f21875a1140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Barren_or_Moon/11.png using Guid(f73e21b3c142349c58bb9f21875a1140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee39d48acb7d22a104633805c63f189') in 0.028376 seconds 
-  Import took 0.035443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.952820 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes
-  artifactKey: Guid(1533fb15dccab4967a6edb0af8d95d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes using Guid(1533fb15dccab4967a6edb0af8d95d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43811c2f72a4613a3d18ad70ba6afa5f') in 0.018716 seconds 
-  Import took 0.026405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.512438 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/1.png
-  artifactKey: Guid(9863faaa0d2cf4f3c863c19ab786d0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/1.png using Guid(9863faaa0d2cf4f3c863c19ab786d0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63349a0524e9f7e5f2a3ba751836e05') in 0.030907 seconds 
-  Import took 0.039428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000621 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/7.png
-  artifactKey: Guid(23dfe9c5cf0854fd08fcbe01e8276b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/7.png using Guid(23dfe9c5cf0854fd08fcbe01e8276b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec86eb8d75c727eb791b49bb17fa825f') in 0.023690 seconds 
-  Import took 0.031193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000542 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/6.png
-  artifactKey: Guid(c09e5f97eb43341dba25484bf1230876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/6.png using Guid(c09e5f97eb43341dba25484bf1230876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd3a27542c507c7e67bea6fc1cdea9d') in 0.022065 seconds 
-  Import took 0.028918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/5.png
-  artifactKey: Guid(8a30f4b837f234c0680d98083c99c30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/5.png using Guid(8a30f4b837f234c0680d98083c99c30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8cfd2e3135cfe16b6a488946ea29f24') in 0.022650 seconds 
-  Import took 0.029506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000555 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/4.png
-  artifactKey: Guid(0b7ed93e9ed244806a89d7edb505afdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/4.png using Guid(0b7ed93e9ed244806a89d7edb505afdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cfdfd9d41259d49f9a0c9e85bfc199') in 0.021894 seconds 
-  Import took 0.029427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/8.png
-  artifactKey: Guid(081881c77492e4b3eaf6d58934377799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/8.png using Guid(081881c77492e4b3eaf6d58934377799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4fd47bae08044c0cdc6e5e4c3c5238') in 0.025156 seconds 
-  Import took 0.032540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/3.png
-  artifactKey: Guid(c003f85995a714ab7a59bde57f07b53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/3.png using Guid(c003f85995a714ab7a59bde57f07b53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d45487248333a4cd0b07d82c5064637') in 0.019403 seconds 
-  Import took 0.027008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/2.png
-  artifactKey: Guid(b1847968dda1d44d7ae476ba269912f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/2.png using Guid(b1847968dda1d44d7ae476ba269912f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4606be7e20c337929d9872cbcff54fef') in 0.021572 seconds 
-  Import took 0.029142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.254520 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/6.png
-  artifactKey: Guid(c09e5f97eb43341dba25484bf1230876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/6.png using Guid(c09e5f97eb43341dba25484bf1230876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92408804bd1c9161cb6169124f4354b0') in 0.024457 seconds 
-  Import took 0.030493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/7.png
-  artifactKey: Guid(23dfe9c5cf0854fd08fcbe01e8276b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/7.png using Guid(23dfe9c5cf0854fd08fcbe01e8276b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a38a0407495ef67b84c1734aa85ba04') in 0.030406 seconds 
-  Import took 0.038458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000488 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/5.png
-  artifactKey: Guid(8a30f4b837f234c0680d98083c99c30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/5.png using Guid(8a30f4b837f234c0680d98083c99c30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bb9a4e450b45dedce9d6c1ee2c05cd') in 0.031831 seconds 
-  Import took 0.039092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/4.png
-  artifactKey: Guid(0b7ed93e9ed244806a89d7edb505afdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/4.png using Guid(0b7ed93e9ed244806a89d7edb505afdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256cd1c9536da4f5c744198c6b85a3ca') in 0.033692 seconds 
-  Import took 0.041194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/8.png
-  artifactKey: Guid(081881c77492e4b3eaf6d58934377799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/8.png using Guid(081881c77492e4b3eaf6d58934377799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a843035f583ac4dcfea92182d4f2b4') in 0.024343 seconds 
-  Import took 0.030497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/3.png
-  artifactKey: Guid(c003f85995a714ab7a59bde57f07b53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/3.png using Guid(c003f85995a714ab7a59bde57f07b53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cb1030d9f255a95446ca1d80041b71') in 0.027686 seconds 
-  Import took 0.033360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/2.png
-  artifactKey: Guid(b1847968dda1d44d7ae476ba269912f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/2.png using Guid(b1847968dda1d44d7ae476ba269912f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c6b449d9f0c81ebecfd1113a66f386') in 0.028009 seconds 
-  Import took 0.034672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Sprites/PlanetsFull/Black_holes/1.png
-  artifactKey: Guid(9863faaa0d2cf4f3c863c19ab786d0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Black_holes/1.png using Guid(9863faaa0d2cf4f3c863c19ab786d0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bbc4f00fad7e827aace29efc3565d5') in 0.039426 seconds 
-  Import took 0.046150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.524075 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets
-  artifactKey: Guid(2214d7802066944f3ac0c2164e7f5bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets using Guid(2214d7802066944f3ac0c2164e7f5bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd210a6f46670906632ff47bd8d7d77') in 0.017157 seconds 
-  Import took 0.023698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.867919 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/1.png
-  artifactKey: Guid(3cd176a1946c7427ab1bdcac3915f477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/1.png using Guid(3cd176a1946c7427ab1bdcac3915f477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676363032825bcd7e2b55dc62c29adcc') in 0.027998 seconds 
-  Import took 0.035851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000595 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/5.png
-  artifactKey: Guid(0490d5b808cc44e3cbd78358fcab9c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/5.png using Guid(0490d5b808cc44e3cbd78358fcab9c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2095eda4d968feb0ad1452122d8c69e1') in 0.035802 seconds 
-  Import took 0.043738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000668 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/4.png
-  artifactKey: Guid(158e2683c25b34d55a5dac18aa32294b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/4.png using Guid(158e2683c25b34d55a5dac18aa32294b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0053efbfef85dc0947cc6b6ca33bc64e') in 0.024794 seconds 
-  Import took 0.030419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000486 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/3.png
-  artifactKey: Guid(41d8343ec351f48c6be602744e2ad0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/3.png using Guid(41d8343ec351f48c6be602744e2ad0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556e24053c9dc3d29fad70476af2cd6d') in 0.026533 seconds 
-  Import took 0.033388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000531 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/7.png
-  artifactKey: Guid(8d6a1b12f407f4916aa420af95a09484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/7.png using Guid(8d6a1b12f407f4916aa420af95a09484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d5f002952d9a211822848be592ffd7') in 0.023752 seconds 
-  Import took 0.033237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000604 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/6.png
-  artifactKey: Guid(e19fb707211b44ec4b3187cfe075f8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/6.png using Guid(e19fb707211b44ec4b3187cfe075f8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a150c733e96747fe0050ea729e63a9') in 0.024291 seconds 
-  Import took 0.031288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/8.png
-  artifactKey: Guid(fcf848f96d29d48ea9d2c2f105ad73fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/8.png using Guid(fcf848f96d29d48ea9d2c2f105ad73fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4a6864f4a1cf16a800bda278e524a2') in 0.020395 seconds 
-  Import took 0.027325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/2.png
-  artifactKey: Guid(7267ef6f0b48642d4bc02404085d1181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/2.png using Guid(7267ef6f0b48642d4bc02404085d1181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c938acf845f3533d5afdebc838caeb7f') in 0.025479 seconds 
-  Import took 0.033615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.151326 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/8.png
-  artifactKey: Guid(fcf848f96d29d48ea9d2c2f105ad73fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/8.png using Guid(fcf848f96d29d48ea9d2c2f105ad73fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470810d271c705393075d9f9365333d4') in 0.041282 seconds 
-  Import took 0.048775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/5.png
-  artifactKey: Guid(0490d5b808cc44e3cbd78358fcab9c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/5.png using Guid(0490d5b808cc44e3cbd78358fcab9c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ac2769f50fc1d73da4f555a6e211f8') in 0.023533 seconds 
-  Import took 0.030327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/4.png
-  artifactKey: Guid(158e2683c25b34d55a5dac18aa32294b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/4.png using Guid(158e2683c25b34d55a5dac18aa32294b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a161e4ede38a783bddfb7f1d93cbddb9') in 0.016450 seconds 
-  Import took 0.022383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/3.png
-  artifactKey: Guid(41d8343ec351f48c6be602744e2ad0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/3.png using Guid(41d8343ec351f48c6be602744e2ad0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de25dd6b9898a5fae1d5175753ca1782') in 0.022287 seconds 
-  Import took 0.028244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/7.png
-  artifactKey: Guid(8d6a1b12f407f4916aa420af95a09484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/7.png using Guid(8d6a1b12f407f4916aa420af95a09484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd3c2eab4a89c4343eeecdf86e15fdd') in 0.019218 seconds 
-  Import took 0.024794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/6.png
-  artifactKey: Guid(e19fb707211b44ec4b3187cfe075f8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/6.png using Guid(e19fb707211b44ec4b3187cfe075f8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fd102e41afb1ed88b68da79eb71ab4') in 0.022944 seconds 
-  Import took 0.030281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/1.png
-  artifactKey: Guid(3cd176a1946c7427ab1bdcac3915f477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/1.png using Guid(3cd176a1946c7427ab1bdcac3915f477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a75276e53923197b942c50b6944acfb') in 0.023703 seconds 
-  Import took 0.029228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Sprites/PlanetsFull/Comets/2.png
-  artifactKey: Guid(7267ef6f0b48642d4bc02404085d1181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Comets/2.png using Guid(7267ef6f0b48642d4bc02404085d1181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7e5ca4aa7cf21217af7e4c3c0d2e60') in 0.030171 seconds 
-  Import took 0.036471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.177950 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian
-  artifactKey: Guid(3adfb77a0d2604c1987a4d15b5982385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian using Guid(3adfb77a0d2604c1987a4d15b5982385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394594dbfea68177935aaa6f4326e3bb') in 0.017114 seconds 
-  Import took 0.024428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000633 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/1.png
-  artifactKey: Guid(d7ea90c0bc8744bc7a34a2ee0cff3a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/1.png using Guid(d7ea90c0bc8744bc7a34a2ee0cff3a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec89aec854a0ea39fd75dce9bd3853d') in 0.022694 seconds 
-  Import took 0.030796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/3.png
-  artifactKey: Guid(e28371921f973404da04031ba90d82f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/3.png using Guid(e28371921f973404da04031ba90d82f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6eb7b9741dca8d2f3c608f56457f6c') in 0.020154 seconds 
-  Import took 0.028494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/8.png
-  artifactKey: Guid(cddddff9713ff42dc843f0522c1ccd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/8.png using Guid(cddddff9713ff42dc843f0522c1ccd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7bc7bf93d2cc43a2a2b4bc13181e85') in 0.021276 seconds 
-  Import took 0.029872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/4.png
-  artifactKey: Guid(09cc117ae19904cdfaf9e9bf28aeb76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/4.png using Guid(09cc117ae19904cdfaf9e9bf28aeb76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd468abbc94fc03fcd77990b496edde') in 0.020734 seconds 
-  Import took 0.026058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/7.png
-  artifactKey: Guid(f5dd864980b104552aa3d02c32032450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/7.png using Guid(f5dd864980b104552aa3d02c32032450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538b2c6db5ed074767a479063e50ce31') in 0.026418 seconds 
-  Import took 0.033582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/6.png
-  artifactKey: Guid(49fa64f2d673d46dd881be150dcfb1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/6.png using Guid(49fa64f2d673d46dd881be150dcfb1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2a5e2280ba6245927c99310699a175') in 0.022589 seconds 
-  Import took 0.029035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/2.png
-  artifactKey: Guid(ceea3abd4d46d44c9bbd59d3ed653a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/2.png using Guid(ceea3abd4d46d44c9bbd59d3ed653a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d80b54d766f4d9b145dced0ac35fa7') in 0.021652 seconds 
-  Import took 0.028999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/5.png
-  artifactKey: Guid(edc4437b57e7846fd89bbbfa814e3d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/5.png using Guid(edc4437b57e7846fd89bbbfa814e3d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a61779868f3a3469481a11cd06c02d') in 0.020754 seconds 
-  Import took 0.027613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.345280 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/4.png
-  artifactKey: Guid(09cc117ae19904cdfaf9e9bf28aeb76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/4.png using Guid(09cc117ae19904cdfaf9e9bf28aeb76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495c465d5761401fb0e50d85a885199b') in 0.021755 seconds 
-  Import took 0.028236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/1.png
-  artifactKey: Guid(d7ea90c0bc8744bc7a34a2ee0cff3a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/1.png using Guid(d7ea90c0bc8744bc7a34a2ee0cff3a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca2450aa5b4e07d6c387c272040332f') in 0.033529 seconds 
-  Import took 0.040642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/3.png
-  artifactKey: Guid(e28371921f973404da04031ba90d82f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/3.png using Guid(e28371921f973404da04031ba90d82f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e781b0b3b3ed50a36d79e455f4598f') in 0.021037 seconds 
-  Import took 0.026913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/8.png
-  artifactKey: Guid(cddddff9713ff42dc843f0522c1ccd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/8.png using Guid(cddddff9713ff42dc843f0522c1ccd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b557813656c5493e122c28e8781237') in 0.024792 seconds 
-  Import took 0.031562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/7.png
-  artifactKey: Guid(f5dd864980b104552aa3d02c32032450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/7.png using Guid(f5dd864980b104552aa3d02c32032450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c150639db13e86b6f67f13437c2f28') in 0.023711 seconds 
-  Import took 0.030910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/6.png
-  artifactKey: Guid(49fa64f2d673d46dd881be150dcfb1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/6.png using Guid(49fa64f2d673d46dd881be150dcfb1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516598425db008286faa9095b9482e88') in 0.024353 seconds 
-  Import took 0.031275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/2.png
-  artifactKey: Guid(ceea3abd4d46d44c9bbd59d3ed653a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/2.png using Guid(ceea3abd4d46d44c9bbd59d3ed653a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09bb6ed7b50bf654f9db6b02a68ffac') in 0.018244 seconds 
-  Import took 0.025274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Sprites/PlanetsFull/Desert_or_Martian/5.png
-  artifactKey: Guid(edc4437b57e7846fd89bbbfa814e3d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlanetsFull/Desert_or_Martian/5.png using Guid(edc4437b57e7846fd89bbbfa814e3d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8088d19a05a999f78d1954a5179486b8') in 0.028145 seconds 
-  Import took 0.034765 seconds .
-
+Start importing Assets/Planet Prefab/Planet Prefab.prefab using Guid(0699aef367ebf934bb7df7a40d09e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882d1f57f2cc5ee24456e63234dcd784') in 0.277613 seconds 
+  Import took 0.289284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.829665 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(611a16a980127bd44b0fc76390714a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(611a16a980127bd44b0fc76390714a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7b9e1a61714487174db9861a99701e') in 0.020317 seconds 
+  Import took 0.027478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.751706 seconds.
+  path: Assets/Asteroid Prefab
+  artifactKey: Guid(611a16a980127bd44b0fc76390714a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asteroid Prefab using Guid(611a16a980127bd44b0fc76390714a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fb0a5ada42103a443b21c7f915e0b1') in 0.023843 seconds 
+  Import took 0.034410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.643035 seconds.
+  path: Assets/Asteroid Prefab/Asteroid Prefab.prefab
+  artifactKey: Guid(952939397a294844a8bc895ecb813558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asteroid Prefab/Asteroid Prefab.prefab using Guid(952939397a294844a8bc895ecb813558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a038323792c3d749ad5470b902a1c5') in 0.012618 seconds 
+  Import took 0.019314 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.789 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2790ms)
+		BeginReloadAssembly (298ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (2297ms)
+			LoadAssemblies (231ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (808ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (825ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (597ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1949.
+Total: 7.242600 ms (FindLiveObjects: 0.344600 ms CreateObjectMapping: 0.092200 ms MarkObjects: 6.597800 ms  DeleteObjects: 0.204800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

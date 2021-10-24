@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 
     public Rigidbody2D player;
     public float Health;
+    public float currentHealth;
     public float upDownSpeed;
     void Start()
     {

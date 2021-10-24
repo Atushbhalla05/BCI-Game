@@ -446,6 +446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1948208475771686349}
   Health: 100
+  currentHealth: 0
   upDownSpeed: 5
 --- !u!50 &1948208475771686349
 Rigidbody2D:
@@ -455,9 +456,9 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7578201686410237885}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
-  m_UseFullKinematicContacts: 0
+  m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
