@@ -825,7 +825,6 @@ GameObject:
   - component: {fileID: 8221373515604625019}
   - component: {fileID: 8221373515604625018}
   - component: {fileID: 8221373515604625017}
-  - component: {fileID: 7434982059623475196}
   - component: {fileID: 1959912389453873353}
   - component: {fileID: 1959912389453873352}
   - component: {fileID: 1959912389453873351}
@@ -902,23 +901,6 @@ PolygonCollider2D:
       - {x: -0.4914326, y: 0.48448598}
       - {x: -0.37222904, y: 0.17913619}
       - {x: 0.04863842, y: 0.17804003}
---- !u!114 &7434982059623475196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8221373515604625016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3711ba27189642bda3d35b3fa472382, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1948208475771686349, guid: c204393cde9b1a74ea6fcdd2577c7e00, type: 3}
-  maxHealth: 0
-  currentHealth: 0
-  upDownSpeed: 5
-  healthBar: {fileID: 0}
 --- !u!50 &1959912389453873353
 Rigidbody2D:
   serializedVersion: 4
