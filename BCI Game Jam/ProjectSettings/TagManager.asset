@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - shredder
+  - Enemies
   layers:
   - Default
   - TransparentFX

@@ -935,8 +935,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1959912389453873353}
-  maxHealth: 100
-  currentHealth: 100
+  maxHealth: 10
+  currentHealth: 10
   upDownSpeed: 7
   healthBar: {fileID: 0}
 --- !u!114 &282197784786649449

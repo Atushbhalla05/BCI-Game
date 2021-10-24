@@ -29,8 +29,12 @@ public class PlayerController : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D collision){
-        Destroy(collision.gameObject);
-        TakeDamage();
+        if(collision.gameObject.tag == "Enemies")
+        {
+            Destroy(collision.gameObject);
+            TakeDamage();
+
+        }
     }
 
     public void TakeDamage(){

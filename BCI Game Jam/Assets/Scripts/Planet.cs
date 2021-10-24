@@ -6,6 +6,7 @@ public class Planet : MonoBehaviour
 {
     [SerializeField] float speed;
 
+
     // Start is called before the first frame update
     void Start()
     {
