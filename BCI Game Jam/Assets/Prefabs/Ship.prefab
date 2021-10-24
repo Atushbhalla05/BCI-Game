@@ -91,7 +91,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1959912389153911208}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LaserAttack1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 1959912390576465412}
   - component: {fileID: 1959912390576465413}
   - component: {fileID: 1959912390576465418}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MiniShot (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 1959912390665412503}
   - component: {fileID: 1959912390665412500}
   - component: {fileID: 1959912390665412501}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LaserAttack2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   - component: {fileID: 1959912390813439047}
   - component: {fileID: 1959912390813439044}
   - component: {fileID: 1959912390813439045}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MiniShot (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -513,7 +513,7 @@ GameObject:
   - component: {fileID: 6944177678592061544}
   - component: {fileID: 1367017569091879702}
   - component: {fileID: 4510540440147172991}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LaserAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
