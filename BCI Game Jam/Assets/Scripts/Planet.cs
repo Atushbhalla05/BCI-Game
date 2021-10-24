@@ -5,6 +5,7 @@ using UnityEngine;
 public class Planet : MonoBehaviour
 {
     [SerializeField] float speed;
+    [SerializeField] GameObject explosion;
 
 
     // Start is called before the first frame update
@@ -22,5 +23,15 @@ public class Planet : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("planet got hit");
+        if(collision.gameObject.tag == "Laser"){
+            Die();
+        }
     }
+
+    public void Die(){
+        Instantiate(explosion,this.transform);
+        Destroy(this);
+    }
+
+
 }

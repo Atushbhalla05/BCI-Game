@@ -6,6 +6,7 @@ TagManager:
   tags:
   - shredder
   - Enemies
+  - Laser
   layers:
   - Default
   - TransparentFX
