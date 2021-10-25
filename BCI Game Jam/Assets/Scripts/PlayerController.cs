@@ -1,4 +1,4 @@
-using System.Collections;
+using System.Collections; 
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -15,10 +15,23 @@ public class PlayerController : MonoBehaviour
     float pushBack;
     float maxBound;
     public float upDownSpeed;
+    [SerializeField]
+    private AudioClip damageclip = null;
+    public AudioSource damagesource = null;
 
     public HealthBar healthBar;
     void Start()
     {
+        damagesource = GetComponent<AudioSource>();
+        if (damagesource == null)
+        {
+            Debug.Log("Audio Source is null");
+        }
+        else
+        {
+            damagesource.clip = damageclip;
+        }
+
         maxBound = -1*(minBound + 2.5f);
         pushBack = .05f;
         currentHealth = maxHealth;
@@ -64,5 +77,6 @@ public class PlayerController : MonoBehaviour
     public void TakeDamage(){
         currentHealth -= 1;
         healthBar.SetHealth(currentHealth);
+        damagesource.PlayOneShot(damagesource.clip);
     }
 }
