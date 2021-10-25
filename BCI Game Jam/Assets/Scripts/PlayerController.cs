@@ -7,14 +7,20 @@ public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
 
+
     public Rigidbody2D player;
     public int maxHealth;
     public int currentHealth;
+    public float minBound;
+    float pushBack;
+    float maxBound;
     public float upDownSpeed;
 
     public HealthBar healthBar;
     void Start()
     {
+        maxBound = -1*(minBound + 2.5f);
+        pushBack = .05f;
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
@@ -28,7 +34,24 @@ public class PlayerController : MonoBehaviour
     }
 
     void FixedUpdate(){
-        player.velocity = new Vector2(player.velocity.x, Input.GetAxis("Vertical") * upDownSpeed );
+        if (player.position.y < maxBound && player.position.y > minBound)
+        {
+            player.velocity = new Vector2(player.velocity.x, Input.GetAxis("Vertical") * upDownSpeed);
+        }
+        else 
+        {
+            player.velocity = new Vector2(player.velocity.x, 0);
+
+            if (player.position.y >= maxBound)
+            {
+                player.position = new Vector2(player.position.x, (maxBound - pushBack));
+            }
+
+            if (player.position.y <= minBound)
+            {
+                player.position = new Vector2(player.position.x, (minBound + pushBack));
+            }
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision){
