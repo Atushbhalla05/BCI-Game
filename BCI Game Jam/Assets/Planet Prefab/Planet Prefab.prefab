@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 363914653}
   m_Layer: 6
   m_Name: Planet Prefab
-  m_TagString: Enemies
+  m_TagString: planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,7 +113,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ede0508e26d074c3cbf33651e3f1d00e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 4
+  explosion: {fileID: 4207820341316995487, guid: 67d3fa04180684cdfbfcaa5f41e1af10, type: 3}
 --- !u!50 &363914653
 Rigidbody2D:
   serializedVersion: 4

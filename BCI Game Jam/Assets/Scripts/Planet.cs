@@ -8,12 +8,6 @@ public class Planet : MonoBehaviour
     [SerializeField] GameObject explosion;
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -22,19 +16,26 @@ public class Planet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("planet got hit");
-        if(collision.gameObject.tag == "Laser"){
-            Die();
-        }
+
     }
 
-    public void Die(){
+    public void DieAsteroid(){
         Debug.Log("Attempting death");
         for (int i = 0; i < 16; i++)
         {
             int offset = i - 8;
             Instantiate(explosion, transform.position - new Vector3(0,offset,0), Quaternion.identity);
         }
+
+        Destroy(this.gameObject);
+    }
+
+    public void DiePlanet()
+    {
+        Debug.Log("Attempting death");
+        
+        Instantiate(explosion, transform.position, Quaternion.identity);
+
 
         Destroy(this.gameObject);
     }
