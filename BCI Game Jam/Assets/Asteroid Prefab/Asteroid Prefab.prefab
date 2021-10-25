@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8478308496652621290}
   m_Layer: 6
   m_Name: Asteroid Prefab
-  m_TagString: Enemies
+  m_TagString: asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,6 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+  explosion: {fileID: 4207820341316995487, guid: 67d3fa04180684cdfbfcaa5f41e1af10, type: 3}
 --- !u!50 &8478308496652621290
 Rigidbody2D:
   serializedVersion: 4

@@ -29,8 +29,14 @@ public class Planet : MonoBehaviour
     }
 
     public void Die(){
-        Instantiate(explosion,this.transform);
-        Destroy(this);
+        Debug.Log("Attempting death");
+        for (int i = 0; i < 16; i++)
+        {
+            int offset = i - 8;
+            Instantiate(explosion, transform.position - new Vector3(0,offset,0), Quaternion.identity);
+        }
+
+        Destroy(this.gameObject);
     }
 
 
