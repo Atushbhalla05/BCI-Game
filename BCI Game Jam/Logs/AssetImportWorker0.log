@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16061 MB
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16145 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,116 +11,144 @@ C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/marie/Documents/GitHub/BCI Game Jam/BCI Game Jam
+C:/Users/nssha/OneDrive/Documents/GitHub/BCI-GameJam/BCI-Game/BCI Game Jam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52696
-Successfully changed project path to: C:/Users/marie/Documents/GitHub/BCI Game Jam/BCI Game Jam
-C:/Users/marie/Documents/GitHub/BCI Game Jam/BCI Game Jam
+53859
+Successfully changed project path to: C:/Users/nssha/OneDrive/Documents/GitHub/BCI-GameJam/BCI-Game/BCI Game Jam
+C:/Users/nssha/OneDrive/Documents/GitHub/BCI-GameJam/BCI-Game/BCI Game Jam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 44.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/marie/Documents/GitHub/BCI Game Jam/BCI Game Jam/Assets
+[Subsystems] Discovering subsystems at path C:/Users/nssha/OneDrive/Documents/GitHub/BCI-GameJam/BCI-Game/BCI Game Jam/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
     Vendor:   
-    VRAM:     6023 MB
-    Driver:   27.21.14.6213
+    VRAM:     5980 MB
+    Driver:   30.0.14.7135
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001261 seconds.
+Registered in 0.001923 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 44.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.685 seconds
+- Completed reload, in  0.878 seconds
 Domain Reload Profiling:
-	ReloadAssembly (685ms)
-		BeginReloadAssembly (31ms)
+	ReloadAssembly (878ms)
+		BeginReloadAssembly (45ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (293ms)
-			LoadAssemblies (30ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (381ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (95ms)
+			SetupTypeCache (122ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (117ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (145ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
-				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (54ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002547 seconds.
+Registered in 0.003340 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000016975BE6E20 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016975C91020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697ADD3010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016975BE6E20 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697B8AB020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697BA1F030 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697B6F4020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697B96F010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697B6F4020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A11EC20 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016975BE6E20 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697BA1F030 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016975BE6E20 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697BA30C40 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.611 seconds
+- Completed reload, in  0.800 seconds
 Domain Reload Profiling:
-	ReloadAssembly (612ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (800ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (485ms)
-			LoadAssemblies (51ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (635ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (188ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (236ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (35ms)
-				ProcessInitializeOnLoadAttributes (138ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.1 MB.
-System memory in use after: 71.2 MB.
+Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.7 MB.
+System memory in use after: 71.8 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1943.
-Total: 2.205000 ms (FindLiveObjects: 0.108100 ms CreateObjectMapping: 0.023100 ms MarkObjects: 1.992100 ms  DeleteObjects: 0.081000 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1947.
+Total: 3.231100 ms (FindLiveObjects: 0.175000 ms CreateObjectMapping: 0.058300 ms MarkObjects: 2.866600 ms  DeleteObjects: 0.130100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,57 +163,85 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts
-  artifactKey: Guid(c4333f3a02d9247c3bf2c27b279c8226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(c4333f3a02d9247c3bf2c27b279c8226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf307c85e993b53c725952cf5e56f8d') in 0.006715 seconds 
-  Import took 0.008553 seconds .
+  path: Assets/Scripts/HealthBar.cs
+  artifactKey: Guid(88842b0c437244d6f8b43f8d1066f748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HealthBar.cs using Guid(88842b0c437244d6f8b43f8d1066f748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e926b394570110068c2464bed648b7') in 0.018525 seconds 
+  Import took 0.020807 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002223 seconds.
+Registered in 0.003508 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001697E9DDC10 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016975E95030 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697E1694B0 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697E9DDC10 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697B798020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697E61DDD0 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697B3C5010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697B96F010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697B798020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697BFB5020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697F0D3780 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697E6A1020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697BEC5C30 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A85F020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.600 seconds
+- Completed reload, in  0.819 seconds
 Domain Reload Profiling:
-	ReloadAssembly (601ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (819ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (488ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (659ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
+			SetupTypeCache (232ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (180ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (236ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (37ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.0 MB.
-System memory in use after: 70.1 MB.
+System memory in use before: 70.5 MB.
+System memory in use after: 70.6 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1949.
-Total: 2.061800 ms (FindLiveObjects: 0.097500 ms CreateObjectMapping: 0.023300 ms MarkObjects: 1.899400 ms  DeleteObjects: 0.040700 ms)
+Total: 2.309700 ms (FindLiveObjects: 0.129700 ms CreateObjectMapping: 0.043700 ms MarkObjects: 2.092400 ms  DeleteObjects: 0.043000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -199,59 +255,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 53.848726 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(d3711ba27189642bda3d35b3fa472382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(d3711ba27189642bda3d35b3fa472382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f52c93c0dae99c2d0c9cee72c8b19cd') in 0.015681 seconds 
-  Import took 0.017545 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002378 seconds.
+Registered in 0.003596 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001697A877040 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697D75BC80 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A809010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016976066260 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697E2EE010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016975F054E0 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A1FE020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016975ED2010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697E2EE010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697BFB5020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016976066260 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697E6A1020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A877040 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697615F910 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.601 seconds
+- Completed reload, in  0.810 seconds
 Domain Reload Profiling:
-	ReloadAssembly (602ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (810ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (488ms)
-			LoadAssemblies (51ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (665ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
+			SetupTypeCache (231ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (175ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (236ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (34ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.1 MB.
-System memory in use after: 70.1 MB.
+System memory in use before: 70.5 MB.
+System memory in use after: 70.6 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1951.
-Total: 2.137400 ms (FindLiveObjects: 0.141900 ms CreateObjectMapping: 0.030600 ms MarkObjects: 1.916700 ms  DeleteObjects: 0.047300 ms)
+Total: 2.384700 ms (FindLiveObjects: 0.150200 ms CreateObjectMapping: 0.053300 ms MarkObjects: 2.114500 ms  DeleteObjects: 0.065400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -265,385 +341,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 54.905349 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(d3711ba27189642bda3d35b3fa472382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(d3711ba27189642bda3d35b3fa472382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e201a6ebc4e44c7390c58b4e0bff6500') in 0.003603 seconds 
-  Import took 0.005437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.639196 seconds.
-  path: Assets/Prefabs/Canvas.prefab
-  artifactKey: Guid(a62ccf2c8133549c7aeeadb2631fc4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas.prefab using Guid(a62ccf2c8133549c7aeeadb2631fc4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23caa5db5b67cb5a34c78e1c97ac6469') in 0.032185 seconds 
-  Import took 0.034477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Prefabs/Ship.prefab
-  artifactKey: Guid(051d8dcbeaa7b42929d8f1e973f09a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ship.prefab using Guid(051d8dcbeaa7b42929d8f1e973f09a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419d2cf34bfbb37ee0f962eae910b351') in 0.047987 seconds 
-  Import took 0.050299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Prefabs/Main Camera.prefab
-  artifactKey: Guid(f9de5c1d4a77547c6aea00b5c5c95183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Main Camera.prefab using Guid(f9de5c1d4a77547c6aea00b5c5c95183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813be0343bf0934154675d51255e0eaf') in 0.005953 seconds 
-  Import took 0.008048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Prefabs/LaserAttack1.prefab
-  artifactKey: Guid(dc19bb0925e6fca43bf6c63d24b2ef83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LaserAttack1.prefab using Guid(dc19bb0925e6fca43bf6c63d24b2ef83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd181e7fa7d1466dc05afe67095bd92') in 0.017790 seconds 
-  Import took 0.020454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.399202 seconds.
-  path: Assets/Prefabs/Explosion.prefab
-  artifactKey: Guid(67d3fa04180684cdfbfcaa5f41e1af10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Explosion.prefab using Guid(67d3fa04180684cdfbfcaa5f41e1af10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f2a14f08ec2b6ba86e21a747118017') in 0.012203 seconds 
-  Import took 0.014682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.065565 seconds.
-  path: Assets/Audio
-  artifactKey: Guid(b61272d955e730b4b987d14674072b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio using Guid(b61272d955e730b4b987d14674072b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5097c0288894c5e73f575d93754772bf') in 0.006176 seconds 
-  Import took 0.008886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.547008 seconds.
-  path: Assets/Audio/Three_Chain_Links_-_Missing_You.mp3
-  artifactKey: Guid(3ef19aa28052a944e97c3f7dac707df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Three_Chain_Links_-_Missing_You.mp3 using Guid(3ef19aa28052a944e97c3f7dac707df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e38f0f90519ad35852eff7a7ea35eb3') in 0.033145 seconds 
-  Import took 0.035582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Audio/ThreeChainLinks_HotNightsInLosAngeles.mp3
-  artifactKey: Guid(545826e99f1a8ad4f91c1c3732c94492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/ThreeChainLinks_HotNightsInLosAngeles.mp3 using Guid(545826e99f1a8ad4f91c1c3732c94492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd79444cb07d353121913b050aebfc1f') in 0.015447 seconds 
-  Import took 0.017546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Audio/ThreeChainLinks_DriveFast.mp3
-  artifactKey: Guid(1388a485d6469db4ebb1629b28243aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/ThreeChainLinks_DriveFast.mp3 using Guid(1388a485d6469db4ebb1629b28243aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b669f1347c3cc68737956dcfbd9b79') in 0.013155 seconds 
-  Import took 0.015754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Audio/Thrive.mp3
-  artifactKey: Guid(27985113a06e6d5429ffdffc1012f237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Thrive.mp3 using Guid(27985113a06e6d5429ffdffc1012f237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fded5e987f5cd3b8ae01c7a39544f4') in 0.014592 seconds 
-  Import took 0.017444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.391311 seconds.
-  path: Assets/Audio/asteroid_explode.mp3
-  artifactKey: Guid(6719a1de28e56ad4e8b2b94076890d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/asteroid_explode.mp3 using Guid(6719a1de28e56ad4e8b2b94076890d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c9f3ef78b8895994800d3b59ddbdc4') in 0.013046 seconds 
-  Import took 0.015720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Audio/asteroid_laser.mp3
-  artifactKey: Guid(e0801a71c3de26f43b26a11174c5b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/asteroid_laser.mp3 using Guid(e0801a71c3de26f43b26a11174c5b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19600d1615598f5c2374dd8fe0b70eb') in 0.011314 seconds 
-  Import took 0.013544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Audio/game_start.mp3
-  artifactKey: Guid(c56eec1896e6dbb499e77ca9c46f9b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/game_start.mp3 using Guid(c56eec1896e6dbb499e77ca9c46f9b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61633f966f3e149bcafa9226c453919') in 0.012038 seconds 
-  Import took 0.014447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Audio/ship_hit.mp3
-  artifactKey: Guid(9a25e0380cc32ef45ab345360d4cbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/ship_hit.mp3 using Guid(9a25e0380cc32ef45ab345360d4cbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd22d1bb974428ebd7e751b26d4fcb89') in 0.013114 seconds 
-  Import took 0.015771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Audio/planet_laser.mp3
-  artifactKey: Guid(683a68316ff6f544abee285bddd3812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/planet_laser.mp3 using Guid(683a68316ff6f544abee285bddd3812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361cb8e57ca580f5a855a105f8787309') in 0.021345 seconds 
-  Import took 0.023812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Audio/planet_explode.mp3
-  artifactKey: Guid(420533dff72e5af4097ab6b56a89a495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/planet_explode.mp3 using Guid(420533dff72e5af4097ab6b56a89a495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc44a484bc4edd53e47ad16666b69745') in 0.018174 seconds 
-  Import took 0.020371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Audio/ship_game over.mp3
-  artifactKey: Guid(03206cdc2e5743547a06666c40e8f9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/ship_game over.mp3 using Guid(03206cdc2e5743547a06666c40e8f9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca49d76df6530513f34f42602bae2ad0') in 0.021567 seconds 
-  Import took 0.024479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.362283 seconds.
-  path: Assets/Prefabs/Explosion.prefab
-  artifactKey: Guid(67d3fa04180684cdfbfcaa5f41e1af10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Explosion.prefab using Guid(67d3fa04180684cdfbfcaa5f41e1af10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d76be6b64fd8489cbc2ca845c381ecb') in 0.008264 seconds 
-  Import took 0.010870 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002374 seconds.
+Registered in 0.003202 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001699FE72030 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A97DC80 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697E33DE40 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A0A4010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A1FE020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A037BC50 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A1FE020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697B508020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A1FE020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697F0ABB20 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A0A4010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697D927020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001699FE72030 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697F400020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.567 seconds
+- Completed reload, in  0.797 seconds
 Domain Reload Profiling:
-	ReloadAssembly (567ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (798ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (459ms)
-			LoadAssemblies (50ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (650ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (160ms)
+			SetupTypeCache (227ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (167ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (34ms)
-				ProcessInitializeOnLoadAttributes (120ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1962.
-Total: 2.256200 ms (FindLiveObjects: 0.121000 ms CreateObjectMapping: 0.023000 ms MarkObjects: 2.063000 ms  DeleteObjects: 0.048300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003082 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.620 seconds
-Domain Reload Profiling:
-	ReloadAssembly (620ms)
-		BeginReloadAssembly (90ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (487ms)
-			LoadAssemblies (54ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (177ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (35ms)
-				ProcessInitializeOnLoadAttributes (129ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1964.
-Total: 2.075900 ms (FindLiveObjects: 0.122900 ms CreateObjectMapping: 0.024500 ms MarkObjects: 1.885400 ms  DeleteObjects: 0.042500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002624 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.599 seconds
-Domain Reload Profiling:
-	ReloadAssembly (600ms)
-		BeginReloadAssembly (81ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (481ms)
-			LoadAssemblies (51ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (169ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (176ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (35ms)
-				ProcessInitializeOnLoadAttributes (125ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1966.
-Total: 2.160100 ms (FindLiveObjects: 0.107700 ms CreateObjectMapping: 0.022800 ms MarkObjects: 1.986600 ms  DeleteObjects: 0.042400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 589.241811 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(d3711ba27189642bda3d35b3fa472382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(d3711ba27189642bda3d35b3fa472382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cc3e03e17d190bb556551679867b99') in 0.003241 seconds 
-  Import took 0.005162 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003476 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.607 seconds
-Domain Reload Profiling:
-	ReloadAssembly (608ms)
-		BeginReloadAssembly (69ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (498ms)
-			LoadAssemblies (55ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (183ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (234ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (130ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.4 MB.
+System memory in use before: 70.5 MB.
+System memory in use after: 70.6 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1968.
-Total: 2.031400 ms (FindLiveObjects: 0.105000 ms CreateObjectMapping: 0.024100 ms MarkObjects: 1.857300 ms  DeleteObjects: 0.044100 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1953.
+Total: 2.270300 ms (FindLiveObjects: 0.127400 ms CreateObjectMapping: 0.044000 ms MarkObjects: 2.055400 ms  DeleteObjects: 0.042700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -657,59 +427,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 103.392230 seconds.
-  path: Assets/Prefabs/Ship.prefab
-  artifactKey: Guid(051d8dcbeaa7b42929d8f1e973f09a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ship.prefab using Guid(051d8dcbeaa7b42929d8f1e973f09a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a76839f94755b19dfbaf604a5e1e29') in 0.048104 seconds 
-  Import took 0.050669 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002833 seconds.
+Registered in 0.003921 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000169A1360AB0 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697B8BD060 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697DA65C60 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A0A4010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697E33DE40 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697F0FBB90 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A1FE020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697B96F010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697E33DE40 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697BA59860 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A0A4010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A01ED030 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697B3CD020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697606F020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.599 seconds
+- Completed reload, in  0.775 seconds
 Domain Reload Profiling:
-	ReloadAssembly (599ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (776ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (473ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (160ms)
+			SetupTypeCache (220ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (175ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (223ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (34ms)
-				ProcessInitializeOnLoadAttributes (127ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (160ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.4 MB.
+System memory in use before: 70.5 MB.
+System memory in use after: 70.6 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1971.
-Total: 2.183100 ms (FindLiveObjects: 0.105000 ms CreateObjectMapping: 0.024100 ms MarkObjects: 2.008600 ms  DeleteObjects: 0.044500 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1955.
+Total: 2.559600 ms (FindLiveObjects: 0.171200 ms CreateObjectMapping: 0.056800 ms MarkObjects: 2.282600 ms  DeleteObjects: 0.048000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -723,59 +513,551 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 66.092798 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(d3711ba27189642bda3d35b3fa472382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(d3711ba27189642bda3d35b3fa472382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4149f86df12626220efc73f64308ca4') in 0.003414 seconds 
-  Import took 0.005468 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003148 seconds.
+Registered in 0.004147 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001697B798020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697E5F04C0 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697BFEB020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A0A4010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A1324A40 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697D612D20 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A03AD020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697D7C5020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A1324A40 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EC79260 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A0A4010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697E61DDD0 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697B798020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697F1E0020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.613 seconds
+- Completed reload, in  0.847 seconds
 Domain Reload Profiling:
-	ReloadAssembly (614ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (847ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (501ms)
-			LoadAssemblies (50ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (698ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (186ms)
+			SetupTypeCache (262ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (174ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (233ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.6 MB.
+System memory in use after: 70.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 2.336400 ms (FindLiveObjects: 0.129800 ms CreateObjectMapping: 0.043500 ms MarkObjects: 2.100500 ms  DeleteObjects: 0.062000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003382 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001697F52A020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A0B618B0 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697D642D50 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697C04D030 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016976171010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A1DF8030 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697DAFE010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697B96F010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016976171010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EC79260 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697C04D030 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697E61DDD0 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697F52A020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697E5E2010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Domain Reload Profiling:
+	ReloadAssembly (814ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (670ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.6 MB.
+System memory in use after: 70.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1959.
+Total: 2.379800 ms (FindLiveObjects: 0.127000 ms CreateObjectMapping: 0.042000 ms MarkObjects: 2.150900 ms  DeleteObjects: 0.059000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 631.947591 seconds.
+  path: Assets/Prefabs/Explosion.prefab
+  artifactKey: Guid(67d3fa04180684cdfbfcaa5f41e1af10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Explosion.prefab using Guid(67d3fa04180684cdfbfcaa5f41e1af10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d63af84b3647f63ac8f8ae011e8b1f8') in 0.082690 seconds 
+  Import took 0.086174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Prefabs/Ship.prefab
+  artifactKey: Guid(051d8dcbeaa7b42929d8f1e973f09a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ship.prefab using Guid(051d8dcbeaa7b42929d8f1e973f09a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45c10abfd5dbb0014112fab3286eec4') in 0.020190 seconds 
+  Import took 0.023079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Prefabs/LaserAttack1.prefab
+  artifactKey: Guid(dc19bb0925e6fca43bf6c63d24b2ef83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaserAttack1.prefab using Guid(dc19bb0925e6fca43bf6c63d24b2ef83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5289dc1b8db3c20e024b77589e929325') in 0.012611 seconds 
+  Import took 0.014947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.936854 seconds.
+  path: Assets/Audio/asteroid_explode.mp3
+  artifactKey: Guid(6719a1de28e56ad4e8b2b94076890d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/asteroid_explode.mp3 using Guid(6719a1de28e56ad4e8b2b94076890d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705e0f2498bb7f59cfbcf3680af8cf72') in 0.045216 seconds 
+  Import took 0.047625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Audio/asteroid_laser.mp3
+  artifactKey: Guid(e0801a71c3de26f43b26a11174c5b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/asteroid_laser.mp3 using Guid(e0801a71c3de26f43b26a11174c5b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0320f1d7edffb5afeaf93ffd6f20b2f1') in 0.011010 seconds 
+  Import took 0.013374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Audio/game_start.mp3
+  artifactKey: Guid(c56eec1896e6dbb499e77ca9c46f9b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/game_start.mp3 using Guid(c56eec1896e6dbb499e77ca9c46f9b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9487b556c08ba87047cf1786445c0d6c') in 0.012220 seconds 
+  Import took 0.014687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Audio/Three_Chain_Links_-_Missing_You.mp3
+  artifactKey: Guid(3ef19aa28052a944e97c3f7dac707df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Three_Chain_Links_-_Missing_You.mp3 using Guid(3ef19aa28052a944e97c3f7dac707df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cf5e90764e15ba5b2b38eb73a8dc66') in 0.012463 seconds 
+  Import took 0.015186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Audio/ship_hit.mp3
+  artifactKey: Guid(9a25e0380cc32ef45ab345360d4cbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/ship_hit.mp3 using Guid(9a25e0380cc32ef45ab345360d4cbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65e7c3f5ff12d9b36a676686cd9b05c') in 0.011793 seconds 
+  Import took 0.014397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Audio/ThreeChainLinks_HotNightsInLosAngeles.mp3
+  artifactKey: Guid(545826e99f1a8ad4f91c1c3732c94492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/ThreeChainLinks_HotNightsInLosAngeles.mp3 using Guid(545826e99f1a8ad4f91c1c3732c94492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb44e829b63f32ada3413fa31ea48c3') in 0.012563 seconds 
+  Import took 0.014983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Audio/ThreeChainLinks_DriveFast.mp3
+  artifactKey: Guid(1388a485d6469db4ebb1629b28243aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/ThreeChainLinks_DriveFast.mp3 using Guid(1388a485d6469db4ebb1629b28243aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd652e5c75ec3e5f005c4905900ad59') in 0.010927 seconds 
+  Import took 0.013760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Audio/planet_laser.mp3
+  artifactKey: Guid(683a68316ff6f544abee285bddd3812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/planet_laser.mp3 using Guid(683a68316ff6f544abee285bddd3812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1599f15886a974e107e9a1075c5cfd5b') in 0.012160 seconds 
+  Import took 0.015037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Audio/Thrive.mp3
+  artifactKey: Guid(27985113a06e6d5429ffdffc1012f237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Thrive.mp3 using Guid(27985113a06e6d5429ffdffc1012f237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929c6d12f7b5c61734128ecb69245142') in 0.011908 seconds 
+  Import took 0.014653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Audio/planet_explode.mp3
+  artifactKey: Guid(420533dff72e5af4097ab6b56a89a495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/planet_explode.mp3 using Guid(420533dff72e5af4097ab6b56a89a495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d72b3c473a6cf90e1945cb556b538f') in 0.011139 seconds 
+  Import took 0.013529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Audio/ship_game over.mp3
+  artifactKey: Guid(03206cdc2e5743547a06666c40e8f9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/ship_game over.mp3 using Guid(03206cdc2e5743547a06666c40e8f9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60dd6b5fc8d941802e804a99a922f48') in 0.011260 seconds 
+  Import took 0.013658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.827887 seconds.
+  path: Assets/Scenes/Spawn Test.unity
+  artifactKey: Guid(45606abcb1f7c4998ac4a1c5749288b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Spawn Test.unity using Guid(45606abcb1f7c4998ac4a1c5749288b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8b0f41ee3bd2038d23fe587f4b98f6') in 0.009880 seconds 
+  Import took 0.012443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.017114 seconds.
+  path: Assets/Scenes/Title Screen.unity
+  artifactKey: Guid(30b3c2b1717fd4e97878fc2b28665049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title Screen.unity using Guid(30b3c2b1717fd4e97878fc2b28665049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d11680e84339caf851e2374013f8a99') in 0.007356 seconds 
+  Import took 0.009719 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003367 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016976081010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EB3F000 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A1C1E020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A1043A00 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697DA99010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697ECFFA10 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169760D5010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EBE3050 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A1033990 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A2D8030 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A203C60 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EC41460 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A877040 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A0109590 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (817ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (662ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (232ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1970.
+Total: 2.292300 ms (FindLiveObjects: 0.130300 ms CreateObjectMapping: 0.044500 ms MarkObjects: 2.075900 ms  DeleteObjects: 0.040700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003569 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001697F52A020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EFBB900 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A2C3E020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697D4A3750 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697DA99010 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A12BFF10 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EDD0340 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EBE3050 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A1033990 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EC79260 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A113A1E0 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EC41460 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A877040 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EC12560 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.834 seconds
+Domain Reload Profiling:
+	ReloadAssembly (834ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (686ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1972.
+Total: 2.619700 ms (FindLiveObjects: 0.159000 ms CreateObjectMapping: 0.054600 ms MarkObjects: 2.346200 ms  DeleteObjects: 0.058800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004598 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001697ECCF590 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A95E2B0 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A060A030 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697D4A3750 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EC22570 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A12BFF10 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EDD0340 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EBE3050 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A1033990 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697EC79260 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A113A1E0 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A178C020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001697A877040 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000169A0EFF020 doesn't match image C:\Users\nssha\OneDrive\Documents\GitHub\BCI-GameJam\BCI-Game\BCI Game Jam\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Domain Reload Profiling:
+	ReloadAssembly (790ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (644ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (240ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (34ms)
-				ProcessInitializeOnLoadAttributes (126ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.4 MB.
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1973.
-Total: 2.134700 ms (FindLiveObjects: 0.102800 ms CreateObjectMapping: 0.022800 ms MarkObjects: 1.963700 ms  DeleteObjects: 0.044700 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1974.
+Total: 2.365800 ms (FindLiveObjects: 0.133300 ms CreateObjectMapping: 0.047300 ms MarkObjects: 2.136500 ms  DeleteObjects: 0.047600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

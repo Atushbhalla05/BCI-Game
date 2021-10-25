@@ -7,11 +7,12 @@ public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
 
-
+   
     public Rigidbody2D player;
     public int maxHealth;
     public int currentHealth;
     public float minBound;
+    bool goUp;
     float pushBack;
     float maxBound;
     public float upDownSpeed;
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour
     public HealthBar healthBar;
     void Start()
     {
+        goUp = true;
         damagesource = GetComponent<AudioSource>();
         if (damagesource == null)
         {
@@ -49,9 +51,21 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate(){
         if (player.position.y < maxBound && player.position.y > minBound)
         {
-            player.velocity = new Vector2(player.velocity.x, Input.GetAxis("Vertical") * upDownSpeed);
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                if (goUp == true)
+                {
+                    player.velocity = new Vector2(player.velocity.x, upDownSpeed);
+                }
+                else
+                {
+                    player.velocity = new Vector2(player.velocity.x, -1f * upDownSpeed);
+                }
+
+                goUp = !goUp;
+            }
         }
-        else 
+        else
         {
             player.velocity = new Vector2(player.velocity.x, 0);
 
@@ -66,6 +80,7 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
 
     void OnCollisionEnter2D(Collision2D collision){
         if(collision.gameObject.tag == "asteroid" || collision.gameObject.tag == "planet")
