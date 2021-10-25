@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D collision){
-        if(collision.gameObject.tag == "Enemies")
+        if(collision.gameObject.tag == "asteroid" || collision.gameObject.tag == "planet")
         {
             TakeDamage();
         }
